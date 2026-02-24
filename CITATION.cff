@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "HODLXXI Research Hub: Cryptographic Reciprocity Under Capital Locking"
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "HODLXXI Contributors"
+    given-names: "Research Collective"
+repository-code: "https://github.com/hodlxxi/hodlxxi-cryptographic-reciprocity"
+license: MIT
+version: 0.1.0
+date-released: 2026-02-24
+abstract: >
+  Research repository for studying whether Bitcoin script-constrained capital
+  can serve as a commitment device in repeated strategic interactions.
+keywords:
+  - bitcoin
+  - game-theory
+  - reciprocity
+  - repeated-games
+  - mechanism-design
+  - covenants

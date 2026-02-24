@@ -1,0 +1,12 @@
+{
+  "population_size": 60,
+  "rounds": 160,
+  "strategy_set": ["TFT", "GRIM", "ALLD", "ALLC"],
+  "noise": 0.01,
+  "discount": 0.99,
+  "lock_horizon": 12,
+  "lock_ratio": 0.7,
+  "seed": 23,
+  "h_max": 12,
+  "output_dir": "sim/output"
+}

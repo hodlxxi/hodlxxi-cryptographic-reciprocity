@@ -1,0 +1,12 @@
+{
+  "population_size": 40,
+  "rounds": 120,
+  "strategy_set": ["TFT", "ALLD", "TFT", "ALLC"],
+  "noise": 0.02,
+  "discount": 0.98,
+  "lock_horizon": 6,
+  "lock_ratio": 0.4,
+  "seed": 17,
+  "h_max": 10,
+  "output_dir": "sim/output"
+}
