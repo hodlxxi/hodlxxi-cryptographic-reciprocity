@@ -127,7 +127,7 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - re-entry;
    - non-claims.
 
-5. `identity-continuity-v0`
+5. [`identity-continuity-v0`](mechanisms/identity-continuity-v0.md)
    - key purpose;
    - rotation;
    - revocation;
@@ -178,7 +178,7 @@ Recommended order:
 3. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md)
 4. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md)
 5. [mechanisms/reciprocity-pattern-v0.md](mechanisms/reciprocity-pattern-v0.md)
-6. `mechanisms/identity-continuity-v0.md`
+6. [mechanisms/identity-continuity-v0.md](mechanisms/identity-continuity-v0.md)
 7. `mechanisms/contextual-reputation-v0.md`
 
 ## Warning
