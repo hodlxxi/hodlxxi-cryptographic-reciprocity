@@ -32,3 +32,15 @@ Runtime mechanisms should be traceable back to Canon claims. If a mechanism cann
 - [Volume V: Institutions](volumes/05-institutions.md)
 - [Volume VI: AI Agents](volumes/06-ai-agents.md)
 - [Volume VII: HODLXXI](volumes/07-hodlxxi.md)
+
+## Runtime linkage
+
+The runtime linkage layer maps Canon claims to actual HODLXXI mechanisms and explicitly records what those mechanisms do not prove.
+
+- [Runtime linkage overview](runtime/README.md)
+- [Runtime non-claims](runtime/non-claims.md)
+- [Identity layers](runtime/identity-layers.md)
+- [Receipts](runtime/receipts.md)
+- [Reputation and memory](runtime/reputation-memory.md)
+- [Missing runtime mechanisms](runtime/missing-mechanisms.md)
+
