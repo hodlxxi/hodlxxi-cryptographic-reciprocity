@@ -95,7 +95,7 @@ The stable claim IDs in this chapter layer are centrally registered in the [CRT 
 
 These are not immediate runtime tasks. They are Canon-level mechanism candidates.
 
-1. `evidence-boundary-metadata-v0`
+1. [`evidence-boundary-metadata-v0`](mechanisms/evidence-boundary-metadata-v0.md)
    - evidence type;
    - issuer or recorder;
    - verification rule;
@@ -192,6 +192,7 @@ Recommended order:
 6. [mechanisms/reciprocity-pattern-v0.md](mechanisms/reciprocity-pattern-v0.md)
 7. [mechanisms/identity-continuity-v0.md](mechanisms/identity-continuity-v0.md)
 8. [mechanisms/contextual-reputation-v0.md](mechanisms/contextual-reputation-v0.md)
+9. [mechanisms/evidence-boundary-metadata-v0.md](mechanisms/evidence-boundary-metadata-v0.md)
 
 ## Warning
 
