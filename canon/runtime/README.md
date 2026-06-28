@@ -15,6 +15,7 @@ A mechanism is mature only when it can answer:
 
 | Runtime area | Canon terms | Current status | Main non-claim |
 | --- | --- | --- | --- |
+| Runtime claims matrix | proof, verification, obligation | Current and expected runtime surfaces are mapped to bounded claims, non-claims, Canon boundaries, and missing mechanisms. | A runtime surface must not be overread as a stronger social, moral, or cryptographic claim. |
 | Agent identity | identity, memory | Agent public key and public identity surfaces exist. | Key control is not full identity. |
 | Operator continuity | identity, memory | Operator continuity surfaces exist. | Operator key evidence does not prove role, authority, or legitimacy. |
 | Capabilities | legitimacy, promise | Signed capability documents exist. | Capability is not delegated authority. |
@@ -29,3 +30,7 @@ A mechanism is mature only when it can answer:
 | Inter-agent messages | identity, legitimacy | Inter-agent signed message MVP exists. | Signed message origin is not authority, acceptance, or obligation. |
 | Delegation | legitimacy, obligation | Partial capability and message surfaces exist. | Delegated legitimacy is not fully implemented. |
 | Forgiveness / repair | forgiveness, memory | Future mechanism; not implemented. | Memory alone does not prove justice, repair, or forgiveness. |
+
+## Claim boundaries
+
+- [Runtime Claims Matrix](claims-matrix.md)
