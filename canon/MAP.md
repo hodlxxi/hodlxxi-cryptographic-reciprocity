@@ -117,7 +117,7 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - forgiveness annotation;
    - non-erasure rule.
 
-4. `reciprocity-pattern-v0`
+4. [`reciprocity-pattern-v0`](mechanisms/reciprocity-pattern-v0.md)
    - counterparties;
    - repeated events;
    - time horizon;
@@ -177,7 +177,7 @@ Recommended order:
 2. `mechanisms/obligation-object-v0.md`
 3. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md)
 4. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md)
-5. `mechanisms/reciprocity-pattern-v0.md`
+5. [mechanisms/reciprocity-pattern-v0.md](mechanisms/reciprocity-pattern-v0.md)
 6. `mechanisms/identity-continuity-v0.md`
 7. `mechanisms/contextual-reputation-v0.md`
 

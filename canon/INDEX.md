@@ -40,6 +40,7 @@ Every Canon claim should be connected to possible observation or falsification.
 - [Minimum Obligation Object v0](mechanisms/obligation-object-v0.md)
 - [Minimum Delegation Record v0](mechanisms/delegation-record-v0.md)
 - [Repair Lifecycle v0](mechanisms/repair-lifecycle-v0.md)
+- [Reciprocity Pattern v0](mechanisms/reciprocity-pattern-v0.md)
 
 ## Runtime linkage
 
