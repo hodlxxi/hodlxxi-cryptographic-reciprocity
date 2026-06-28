@@ -39,6 +39,7 @@ Every Canon claim should be connected to possible observation or falsification.
 ## Mechanisms
 
 - [Mechanisms overview](mechanisms/README.md)
+- [Evidence Boundary Metadata v0](mechanisms/evidence-boundary-metadata-v0.md)
 - [Minimum Obligation Object v0](mechanisms/obligation-object-v0.md)
 - [Minimum Delegation Record v0](mechanisms/delegation-record-v0.md)
 - [Repair Lifecycle v0](mechanisms/repair-lifecycle-v0.md)
