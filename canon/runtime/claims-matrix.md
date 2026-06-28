@@ -29,6 +29,7 @@ mechanism would be required for stronger claims. Stable Canon claim IDs are list
 9. **Reputation claim** — Evidence about remembered behavior, telemetry, attestations, or history. It must not be confused with a universal trust score, moral worth, identity, or truth.
 10. **Commitment claim** — Evidence that value, time, conduct, or constraints were bound in a specific way. It must not be confused with loyalty, love, legitimacy, fulfilled obligation, or complete intent.
 11. **Reciprocity claim** — Evidence of repeated mutual relation across time, memory, and context. It must not be confused with a transaction count, payment history, marketplace activity, or isolated exchange.
+12. **Time claim** — Evidence about timestamp, sequence, block height, recency, horizon, or constraint timing. It must not be confused with meaning, sincerity, obligation, maturity, repair, identity continuity, or commitment by itself.
 
 ## Matrix
 
@@ -41,17 +42,17 @@ mechanism would be required for stronger claims. Stable Canon claim IDs are list
 | `/agent/request` | Execution claim | A request was submitted to the runtime and may be processed under bounded conditions. | Authority to perform the request, user satisfaction, obligation acceptance, or correct interpretation. | Bounded Authority for AI Agents (`CRT-AGENT-AUTHORITY-001`) | Request authorization record; acceptance criteria; obligation object. |
 | Lightning invoice | Payment claim | A payment path was created, and possibly paid if settlement evidence exists. | Obligation, consent to broader terms, satisfaction, repair, or legitimacy. | Obligation Is Not Payment (`CRT-OBLIGATION-001`) | Acceptance criteria; obligation object; settlement evidence binding. |
 | paid job status | Payment claim / execution claim | The runtime associated a job with payment status and possibly execution state. | Fulfilled obligation, correct result, satisfaction, consent, or finality of a dispute. | Obligation Is Not Payment (`CRT-OBLIGATION-001`) | Obligation object; completion criteria; dispute and repair record. |
-| signed receipt | Event claim | A bounded runtime event was signed by the agent key. | Obligation fulfillment, satisfaction, human meaning, identity, or justice. | Receipts as Event Proofs (`CRT-RECEIPT-001`) | Obligation object; satisfaction signal; context bundle. |
+| signed receipt | Event claim / time claim | A bounded runtime event was signed by the agent key and may carry event-time evidence. | Obligation fulfillment, satisfaction, human meaning, identity, sincerity, or justice. | Receipts as Event Proofs (`CRT-RECEIPT-001`); Time Is Not Timestamp (`CRT-TIME-001`) | Obligation object; satisfaction signal; context bundle; ordering semantics. |
 | `/agent/verify/<job_id>` | Event claim / execution claim | The runtime can report verification data for a bounded job or receipt. | That the verified event fulfilled a duty, was meaningful, or was accepted by a human. | Receipts as Event Proofs (`CRT-RECEIPT-001`) | Claim boundary metadata; obligation reference; user-facing non-claims. |
 | `/agent/reputation` | Reputation claim | The runtime exposes remembered telemetry, counts, history, or other reputation-adjacent evidence. | Trustworthiness, moral character, truth, legitimacy, or a universal score. | Reputation Is Not a Score (`CRT-REPUTATION-001`) | Reputation schema; context labels; uncertainty and non-score presentation. |
 | `/agent/attestations` | Evidence claim / reputation claim / event claim | Attestation records were published or made available by a runtime surface. | Truth of the attested claim, completeness of context, legitimacy, final judgment, or identity. | Evidence Is Not Truth (`CRT-EVIDENCE-001`) | Attestation semantics; issuer context; contradiction, counter-attestation, and revocation model. |
-| `/agent/chain/health` | Evidence claim / event claim / memory claim | A local event chain appears internally consistent or reports its current health. | Durable public memory, truth machine, justice, repair, forgiveness, or external truth. | Evidence Is Not Truth (`CRT-EVIDENCE-001`) | External anchoring; audit trail; repair and forgiveness mechanism. |
+| `/agent/chain/health` | Evidence claim / event claim / memory claim / time claim | A local event chain appears internally consistent and can support relative ordering of recorded events. | Durable public memory, truth machine, justice, repair, forgiveness, complete meaning, or external truth. | Evidence Is Not Truth (`CRT-EVIDENCE-001`); Time Is Not Timestamp (`CRT-TIME-001`) | External anchoring; audit trail; ordering semantics; repair and forgiveness mechanism. |
 | `/agent/trust/events` | Event claim / reputation claim | Trust-related events were recorded or exposed by the runtime. | That trust exists, that a relationship is fair, or that harm has been repaired. | Memory Before Forgiveness (`CRT-FORGIVENESS-001`) | Trust event schema; social interpretation layer; repair record. |
 | requester public key | Control claim | Someone controlled the requester key for a signature or request. | Human identity, role, authority, consent, or legitimacy. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | Requester identity layer; consent record; key rotation and recovery model. |
 | operator public key | Control claim | Someone controlled the operator key for a signature, declaration, or endpoint. | Operator legitimacy, governance mandate, participant consent, or moral responsibility. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | Operator continuity record; governance record; accountability process. |
 | agent public key | Control claim | Someone or something controlled the agent key for a signed message, receipt, or event. | Agent identity in the human sense, delegated authority, truth, or correct execution. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | Agent identity continuity; delegation record; revocation and compromise handling. |
-| Human Proof | Evidence claim / identity claim | A requester or participant produced a proof intended to support a bounded human-linked participation claim. | Complete identity, full personhood, uniqueness across contexts, legitimacy, moral standing, or authority. | Evidence Is Not Truth (`CRT-EVIDENCE-001`) | Human identity model; privacy-preserving continuity; abuse, recovery, and non-personhood rules. |
-| covenant lockup | Commitment claim | Value is constrained by script, time, or spending conditions. | Love, loyalty, legitimacy, fulfilled obligation, full commitment, or sincere intent. | Commitment Is Not Lockup (`CRT-COMMITMENT-001`) | Covenant purpose; context record; explicit non-claims; release and dispute semantics. |
+| Human Proof | Evidence claim / identity claim / time claim | A requester or participant produced a proof intended to support a bounded human-linked participation claim, with request, payment, execution, and verification times separated where relevant. | Complete identity, full personhood, uniqueness across contexts, legitimacy, moral standing, sincerity, or authority. | Evidence Is Not Truth (`CRT-EVIDENCE-001`); Time Is Not Timestamp (`CRT-TIME-001`) | Human identity model; Human Proof time semantics; privacy-preserving continuity; abuse, recovery, and non-personhood rules. |
+| covenant lockup | Commitment claim / time claim | Value is constrained by script, time, block height, or spending conditions. | Love, loyalty, legitimacy, fulfilled obligation, full commitment, sincere intent, or human meaning. | Commitment Is Not Lockup (`CRT-COMMITMENT-001`); Time Is Not Timestamp (`CRT-TIME-001`) | Covenant purpose; horizon context; context record; explicit non-claims; release and dispute semantics. |
 | covenant participant key | Control claim / commitment-adjacent claim | A participant key is referenced by a covenant-related surface or constraint. | Participant identity, loyalty, consent to all meanings, or fulfilled commitment. | Commitment Is Not Lockup (`CRT-COMMITMENT-001`) | Participant role record; consent record; key rotation and recovery model. |
 | inter-agent message | Event claim / authority-adjacent claim | An agent key signed or transmitted a bounded message. | Authority, acceptance, obligation, truth, or human consent. | Bounded Authority for AI Agents (`CRT-AGENT-AUTHORITY-001`) | Delegation record; message intent schema; acceptance and rejection semantics. |
 | marketplace listing | Identity claim / reputation-adjacent claim | An actor, service, or agent is discoverable with declared metadata. | Legitimacy, trustworthiness, quality, authority, or obligation to transact. | Reputation Is Not a Score (`CRT-REPUTATION-001`) | Listing verification policy; reputation context; dispute history schema. |
@@ -71,6 +72,8 @@ supports the stronger claim:
 - transaction count -> reciprocity
 - attestation published -> truth
 - event chain healthy -> justice
+- timestamp present -> meaning established
+- timelock active -> sincere commitment
 - endpoint reachable -> legitimacy
 - marketplace listed -> safe counterparty
 - job executed -> request correctly understood
@@ -88,6 +91,7 @@ Future runtime UX should:
 - distinguish reputation telemetry from trust;
 - distinguish lockup from commitment;
 - distinguish transaction history from reciprocity;
+- distinguish timestamp, sequence, block height, recency, and commitment horizon;
 - expose missing mechanisms instead of hiding them behind successful checks;
 - avoid turning bounded evidence into a single trust badge or score.
 
@@ -102,6 +106,7 @@ Future runtime UX should:
 - Do users treat attestations as settled truth?
 - Do users treat a healthy event chain as justice, repair, or forgiveness?
 - Do users treat marketplace activity as reciprocity?
+- Do users treat timestamps, block heights, or timelocks as proof of meaning or sincerity?
 - Do users understand what mechanism is missing for a stronger claim?
 
 ## Open questions

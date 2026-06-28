@@ -43,6 +43,7 @@ The stable claim IDs in this chapter layer are centrally registered in the [CRT 
 | [Obligation Is Not Payment](chapters/obligation-is-not-payment.md) | `CRT-OBLIGATION-001` | Payment is cost evidence, not obligation. | Lightning invoice, paid jobs, receipts. |
 | [Commitment Is Not Lockup](chapters/commitment-is-not-lockup.md) | `CRT-COMMITMENT-001` | Lockup is constraint proof, not complete commitment. | covenants, time locks, proof-of-funds surfaces. |
 | [Reciprocity Is Not Transaction](chapters/reciprocity-is-not-transaction.md) | `CRT-RECIPROCITY-001` | Transaction is event; reciprocity is pattern over time. | receipts, repeated interactions, marketplace, covenants. |
+| [Time Is Not Timestamp](chapters/time-is-not-timestamp.md) | `CRT-TIME-001` | Timestamp is time data; time is ordering condition. | receipts, event chains, Human Proof, reputation history, identity continuity, covenant lockups. |
 
 ## Runtime surface map
 
@@ -56,13 +57,14 @@ The stable claim IDs in this chapter layer are centrally registered in the [CRT 
 | Requester key | A key is associated with a request. | Legal identity, payer identity, or full counterparty. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | First-class requester context. |
 | `/agent/reputation` | Aggregated operational memory. | Global social trust score. | Reputation Is Not a Score (`CRT-REPUTATION-001`) | Contextual reputation model. |
 | Attestation | A statement was exposed or signed. | Truth, legitimacy, or final judgment. | Evidence Is Not Truth (`CRT-EVIDENCE-001`) | Issuer context; revocation and counter-attestation path. |
-| Event chain | Local continuity of recorded events. | External anchoring, truth machine, or justice. | Evidence Is Not Truth (`CRT-EVIDENCE-001`) | Dispute and repair lifecycle; external anchoring. |
+| Event chain | Local continuity and ordering of recorded events. | External anchoring, truth machine, justice, or complete memory. | Time Is Not Timestamp (`CRT-TIME-001`) | Ordering semantics; dispute and repair lifecycle; external anchoring. |
 | `/agent/capabilities` | What the agent says it can do. | What the agent is allowed to do. | Bounded Authority for AI Agents (`CRT-AGENT-AUTHORITY-001`) | Delegation record. |
 | Agent message | A key signed a message. | Authority to represent another actor. | Bounded Authority for AI Agents (`CRT-AGENT-AUTHORITY-001`) | Authority proof. |
 | Lightning invoice | A payment path exists. | Promise, consent, or obligation. | Obligation Is Not Payment (`CRT-OBLIGATION-001`) | Acceptance criteria. |
 | Paid job | Work entered an execution path. | Durable commitment or satisfaction. | Obligation Is Not Payment (`CRT-OBLIGATION-001`) | Job-level obligation state. |
-| Covenant lockup | Value and time constraint are visible. | Love, loyalty, legitimacy, or full commitment. | Commitment Is Not Lockup (`CRT-COMMITMENT-001`) | Covenant purpose and non-claims. |
+| Covenant lockup | Value and time constraint are visible. | Love, loyalty, legitimacy, sincerity, or full commitment. | Commitment Is Not Lockup (`CRT-COMMITMENT-001`); Time Is Not Timestamp (`CRT-TIME-001`) | Covenant purpose, horizon context, and non-claims. |
 | Marketplace interaction | A trade context exists. | Durable reciprocal cooperation. | Reciprocity Is Not Transaction (`CRT-RECIPROCITY-001`) | Relationship pattern model. |
+| Human Proof time points | Request, payment, execution, and verification times can be distinguished. | Complete identity, personhood, legitimacy, or sincerity. | Time Is Not Timestamp (`CRT-TIME-001`) | Human Proof time semantics and non-claims. |
 
 ## Lexicon coverage
 
@@ -87,6 +89,7 @@ The stable claim IDs in this chapter layer are centrally registered in the [CRT 
 | Authority | Defined and chaptered through agents. | Needs authority scope model. |
 | Delegation | Defined and chaptered through agents. | Needs delegation record. |
 | Consent | Defined. | Needs consent evidence model. |
+| Time | Chaptered, but not yet a lexicon term. | Needs ordering semantics and horizon model. |
 
 ## Missing mechanism backlog
 

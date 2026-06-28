@@ -23,3 +23,4 @@ A chapter is not a manifesto or essay. It is a falsifiable research unit connect
 - [Obligation Is Not Payment](obligation-is-not-payment.md)
 - [Commitment Is Not Lockup](commitment-is-not-lockup.md)
 - [Reciprocity Is Not Transaction](reciprocity-is-not-transaction.md)
+- [Time Is Not Timestamp](time-is-not-timestamp.md)
