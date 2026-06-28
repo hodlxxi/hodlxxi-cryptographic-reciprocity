@@ -16,6 +16,11 @@ Every engineering mechanism should be traceable to a Canon claim.
 
 Every Canon claim should be connected to possible observation or falsification.
 
+## Chapters
+
+- [Canon chapters overview](chapters/README.md)
+- [Receipts as Event Proofs](chapters/receipts-as-event-proofs.md)
+
 ## Runtime linkage
 
 - [Runtime linkage overview](runtime/README.md)
@@ -24,4 +29,3 @@ Every Canon claim should be connected to possible observation or falsification.
 - [Receipts](runtime/receipts.md)
 - [Reputation and memory](runtime/reputation-memory.md)
 - [Missing runtime mechanisms](runtime/missing-mechanisms.md)
-
