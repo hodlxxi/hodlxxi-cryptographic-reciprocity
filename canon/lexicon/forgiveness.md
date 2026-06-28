@@ -2,15 +2,18 @@
 
 ## Definition
 
-Forgiveness is the deliberate restoration of possible future cooperation after remembered failure.
+Forgiveness is the deliberate restoration of possible future cooperation after
+remembered failure.
 
 ## Why it matters
 
-CRT treats forgiveness as an adaptive mechanism, not weakness. Without forgiveness, memory can make systems brittle. Without memory, forgiveness becomes meaningless.
+CRT treats forgiveness as an adaptive mechanism, not weakness. Without forgiveness,
+memory can make systems brittle. Without memory, forgiveness becomes meaningless.
 
 ## Observation
 
-Forgiveness appears when an actor remembers a failure but chooses a path that permits renewed cooperation under changed expectations or constraints.
+Forgiveness appears when an actor remembers a failure but chooses a path that permits
+renewed cooperation under changed expectations or constraints.
 
 ## Counterexamples
 
@@ -22,11 +25,14 @@ Repeated forgiveness without changed constraints can become exploitation.
 
 ## Historical analogies
 
-Debt jubilees, confession and penance, bankruptcy law, diplomatic amnesty, family repair, restorative justice, and protocol recovery all preserve some path back after failure.
+Debt jubilees, confession and penance, bankruptcy law, diplomatic amnesty, family
+repair, restorative justice, and protocol recovery all preserve some path back after
+failure.
 
 ## Implications for HODLXXI
 
-HODLXXI should support repairable failure modes, visible restitution, and differentiated memory rather than only permanent exclusion.
+HODLXXI should support repairable failure modes, visible restitution, and differentiated
+memory rather than only permanent exclusion.
 
 ## Open questions
 

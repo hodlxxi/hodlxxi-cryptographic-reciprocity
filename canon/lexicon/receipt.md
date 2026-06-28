@@ -4,7 +4,8 @@
 
 A receipt is a remembered record of a bounded event.
 
-In HODLXXI, a receipt is strongest when it is signed, verifiable, linked to event memory, and explicit about what it does not prove.
+In HODLXXI, a receipt is strongest when it is signed, verifiable, linked to event
+memory, and explicit about what it does not prove.
 
 ## Operational meaning
 
@@ -30,7 +31,8 @@ A receipt is not repair.
 
 ## Observable behavior
 
-In HODLXXI, receipts may appear in paid job flows, verification endpoints, attestations, and local event memory.
+In HODLXXI, receipts may appear in paid job flows, verification endpoints, attestations,
+and local event memory.
 
 A receipt can become evidence for reputation, but it is not reputation by itself.
 
@@ -44,7 +46,8 @@ A receipt can become evidence for reputation, but it is not reputation by itself
 
 ## Implications for HODLXXI
 
-Receipt semantics should remain narrow until obligations, counterparties, acceptance criteria, dispute state, and remedies are explicitly modeled.
+Receipt semantics should remain narrow until obligations, counterparties, acceptance
+criteria, dispute state, and remedies are explicitly modeled.
 
 ## Open questions
 

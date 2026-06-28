@@ -4,7 +4,8 @@
 
 Proof is evidence that satisfies a defined verification rule.
 
-In CRT, proof is always bounded by the rule it satisfies. A valid proof does not automatically prove every meaning people may attach to it.
+In CRT, proof is always bounded by the rule it satisfies. A valid proof does not
+automatically prove every meaning people may attach to it.
 
 ## Operational meaning
 
@@ -24,7 +25,8 @@ Proof is not full identity.
 
 Proof is not moral legitimacy.
 
-Proof is not obligation fulfillment unless obligation fulfillment is the explicit claim being checked.
+Proof is not obligation fulfillment unless obligation fulfillment is the explicit claim
+being checked.
 
 ## Observable behavior
 
@@ -51,7 +53,8 @@ Each proof must carry its non-claims.
 
 Every HODLXXI proof surface should expose what it proves and what it does not prove.
 
-A proof should be treated as a bounded instrument of memory and accountability, not as a universal trust token.
+A proof should be treated as a bounded instrument of memory and accountability, not as a
+universal trust token.
 
 ## Open questions
 

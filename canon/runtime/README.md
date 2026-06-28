@@ -1,8 +1,10 @@
 # Canon Runtime Linkage
 
-This folder maps CRT Canon claims to real HODLXXI runtime mechanisms. It is not runtime documentation. It is a falsification bridge between theory and implementation.
+This folder maps CRT Canon claims to real HODLXXI runtime mechanisms. It is not runtime
+documentation. It is a falsification bridge between theory and implementation.
 
-Runtime mechanisms are current runtime evidence surfaces, not proof that CRT is true. They make behavior visible so Canon claims can be tested, limited, revised, or rejected.
+Runtime mechanisms are current runtime evidence surfaces, not proof that CRT is true.
+They make behavior visible so Canon claims can be tested, limited, revised, or rejected.
 
 A mechanism is mature only when it can answer:
 

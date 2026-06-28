@@ -2,23 +2,28 @@
 
 ## Purpose
 
-This document defines the minimum conceptual lifecycle needed to represent what happens after failure, dispute, breach, misuse, or harm in HODLXXI.
+This document defines the minimum conceptual lifecycle needed to represent what happens
+after failure, dispute, breach, misuse, or harm in HODLXXI.
 
-Repair is not erasure.
-Repair is not automatic forgiveness.
-Repair is not reputational laundering.
-Repair is not punishment by another name.
-Repair is not proven by a receipt alone.
+Repair is not erasure. Repair is not automatic forgiveness. Repair is not reputational
+laundering. Repair is not punishment by another name. Repair is not proven by a receipt
+alone.
 
-Repair requires bounded memory of the original event, a declared failure or harm context, affected parties, proposed remedy, evidence of repair attempt, acceptance or rejection state, and explicit non-claims about justice, forgiveness, and restored trust.
+Repair requires bounded memory of the original event, a declared failure or harm
+context, affected parties, proposed remedy, evidence of repair attempt, acceptance or
+rejection state, and explicit non-claims about justice, forgiveness, and restored trust.
 
-This is a Canon-level mechanism specification. It is not a runtime schema, API contract, legal remedy process, mediation protocol, or implementation claim.
+This is a Canon-level mechanism specification. It is not a runtime schema, API contract,
+legal remedy process, mediation protocol, or implementation claim.
 
 ## Problem
 
-HODLXXI has receipts, obligations, delegation records, trust events, attestations, verification surfaces, paid jobs, covenant-adjacent evidence, and reputation memory.
+HODLXXI has receipts, obligations, delegation records, trust events, attestations,
+verification surfaces, paid jobs, covenant-adjacent evidence, and reputation memory.
 
-These surfaces can preserve that something happened, but they do not by themselves explain what should happen after a relationship fails or causes harm. Users may infer stronger claims than the system preserved:
+These surfaces can preserve that something happened, but they do not by themselves
+explain what should happen after a relationship fails or causes harm. Users may infer
+stronger claims than the system preserved:
 
 - failure recorded -> blame is settled;
 - dispute opened -> accused party is guilty;
@@ -29,7 +34,9 @@ These surfaces can preserve that something happened, but they do not by themselv
 - reputation improved -> trust has been restored;
 - mediator attested -> harm is resolved.
 
-The repair lifecycle exists to prevent those false inference chains. It makes visible the difference between event memory, contested meaning, remedy attempt, acceptance, forgiveness, re-entry, and closure.
+The repair lifecycle exists to prevent those false inference chains. It makes visible
+the difference between event memory, contested meaning, remedy attempt, acceptance,
+forgiveness, re-entry, and closure.
 
 ## Non-goals
 
@@ -48,7 +55,8 @@ This document does not:
 
 ## Required fields
 
-A minimum repair lifecycle record needs the following fields before HODLXXI can honestly represent repair after failure, dispute, breach, misuse, or harm.
+A minimum repair lifecycle record needs the following fields before HODLXXI can honestly
+represent repair after failure, dispute, breach, misuse, or harm.
 
 | Field | Description | Why it is required | What it does not prove |
 | --- | --- | --- | --- |
@@ -90,13 +98,21 @@ Optional fields may help specific contexts without making every repair lifecycle
 - `related_obligation_closure`
 - `version`
 
-These fields should remain optional because repair contexts vary by severity, privacy, reversibility, counterparty familiarity, jurisdictional context, and evidentiary needs. A small correction may need only a lightweight record, while a serious delegation misuse or obligation breach may need mediator, appeal, disclosure, revocation, restitution, and re-entry context.
+These fields should remain optional because repair contexts vary by severity, privacy,
+reversibility, counterparty familiarity, jurisdictional context, and evidentiary needs.
+A small correction may need only a lightweight record, while a serious delegation misuse
+or obligation breach may need mediator, appeal, disclosure, revocation, restitution, and
+re-entry context.
 
-Optional fields must not become hidden mandatory bureaucracy. They should add precision where needed without implying that a low-risk repair is illegitimate merely because it omits heavyweight context.
+Optional fields must not become hidden mandatory bureaucracy. They should add precision
+where needed without implying that a low-risk repair is illegitimate merely because it
+omits heavyweight context.
 
 ## State model
 
-The following lifecycle is a conceptual model, not a runtime state machine. It names states that may be useful when discussing failure, dispute, breach, misuse, harm, repair, forgiveness, and closure.
+The following lifecycle is a conceptual model, not a runtime state machine. It names
+states that may be useful when discussing failure, dispute, breach, misuse, harm,
+repair, forgiveness, and closure.
 
 | State | Meaning | Unsafe inference to avoid |
 | --- | --- | --- |
@@ -117,7 +133,8 @@ The following lifecycle is a conceptual model, not a runtime state machine. It n
 
 ## Runtime surfaces
 
-The repair lifecycle may refer to existing or expected runtime surfaces, but none of these surfaces proves repair by itself.
+The repair lifecycle may refer to existing or expected runtime surfaces, but none of
+these surfaces proves repair by itself.
 
 | Runtime surface | Possible role in repair lifecycle | What it does not prove alone |
 | --- | --- | --- |
@@ -147,7 +164,8 @@ A well-formed repair lifecycle can prove or support only bounded claims:
 - that acceptance criteria, memory policy, and reputation effect were declared;
 - that non-claims were visible.
 
-It still does not prove truth, blame, adequacy, satisfaction, forgiveness, justice, restored trust, or full identity by itself.
+It still does not prove truth, blame, adequacy, satisfaction, forgiveness, justice,
+restored trust, or full identity by itself.
 
 ## What it must not prove
 

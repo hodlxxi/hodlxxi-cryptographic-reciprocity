@@ -4,7 +4,10 @@
 
 What is reputation in CRT, and why is it dangerous to reduce it to a single score?
 
-This matters because HODLXXI exposes reputation telemetry, attestations, receipts, trust events, and local event memory. These mechanisms can help observers reason about past behavior, but they can also create false confidence if compressed into a naive global score.
+This matters because HODLXXI exposes reputation telemetry, attestations, receipts, trust
+events, and local event memory. These mechanisms can help observers reason about past
+behavior, but they can also create false confidence if compressed into a naive global
+score.
 
 ## 2. Scope
 
@@ -34,15 +37,20 @@ Related runtime notes:
 
 ## 3. Observations
 
-HODLXXI runtime can expose operational telemetry: jobs, receipts, attestations, event-chain continuity, successful verification, public reports, and aggregate summaries.
+HODLXXI runtime can expose operational telemetry: jobs, receipts, attestations,
+event-chain continuity, successful verification, public reports, and aggregate
+summaries.
 
 These are useful evidence surfaces.
 
-But a user may treat any visible reputation number, count, badge, ratio, or summary as a full judgment of trustworthiness.
+But a user may treat any visible reputation number, count, badge, ratio, or summary as a
+full judgment of trustworthiness.
 
 That interpretation can be wrong.
 
-A high number may reflect activity rather than character, volume rather than quality, completed events rather than fulfilled obligations, or visibility rather than reliability.
+A high number may reflect activity rather than character, volume rather than quality,
+completed events rather than fulfilled obligations, or visibility rather than
+reliability.
 
 ## 4. Claim
 
@@ -50,7 +58,8 @@ Reputation is compressed memory.
 
 A score is only one possible compression of memory, and often a dangerous one.
 
-Reputation in CRT must remain contextual, counterparty-sensitive, revisable, and connected to evidence, dispute, repair, and time.
+Reputation in CRT must remain contextual, counterparty-sensitive, revisable, and
+connected to evidence, dispute, repair, and time.
 
 ## 5. Non-claims
 
@@ -60,7 +69,8 @@ It does not claim that aggregation is always bad.
 
 It does not claim that humans can evaluate everything manually.
 
-It claims that a reputation score must not be treated as full reputation unless the compression method, context, limits, and failure modes are explicit.
+It claims that a reputation score must not be treated as full reputation unless the
+compression method, context, limits, and failure modes are explicit.
 
 A reputation score does not by itself prove:
 
@@ -119,27 +129,35 @@ Relevant HODLXXI runtime mechanisms include:
 
 ## 8. Counterarguments
 
-One objection is that users need a simple score because they cannot inspect all evidence.
+One objection is that users need a simple score because they cannot inspect all
+evidence.
 
-This is true. But simplicity must not hide what the score discards. A score can guide attention, but it should not replace judgment.
+This is true. But simplicity must not hide what the score discards. A score can guide
+attention, but it should not replace judgment.
 
 Another objection is that markets already use ratings successfully.
 
-They do, but ratings also produce manipulation, review farming, retaliation, herd effects, and context collapse.
+They do, but ratings also produce manipulation, review farming, retaliation, herd
+effects, and context collapse.
 
 A third objection is that without scoring, the system cannot scale.
 
-CRT should not reject compression. It should design compression that remains auditable, contextual, and corrigible.
+CRT should not reject compression. It should design compression that remains auditable,
+contextual, and corrigible.
 
 ## 9. Historical analogies
 
-Merchant reputation depended on repeated dealings, letters, guild networks, kinship, and remembered failures. It was not merely a number.
+Merchant reputation depended on repeated dealings, letters, guild networks, kinship, and
+remembered failures. It was not merely a number.
 
-Credit scores compress financial behavior into a usable signal, but they can erase context and create institutional dependency.
+Credit scores compress financial behavior into a usable signal, but they can erase
+context and create institutional dependency.
 
-Online ratings help strangers transact, but they also invite gaming, fake reviews, retaliation, and platform capture.
+Online ratings help strangers transact, but they also invite gaming, fake reviews,
+retaliation, and platform capture.
 
-Honor systems preserve memory of behavior, but they can become brittle, violent, or impossible to repair.
+Honor systems preserve memory of behavior, but they can become brittle, violent, or
+impossible to repair.
 
 ## 10. Failure modes
 
@@ -171,19 +189,27 @@ A future reputation surface should preserve:
 - decay or aging model;
 - non-claims.
 
-HODLXXI should avoid global trust scores until it has stronger models for counterparty context, dispute, correction, repair, and sybil resistance.
+HODLXXI should avoid global trust scores until it has stronger models for counterparty
+context, dispute, correction, repair, and sybil resistance.
 
 ## 12. Falsification
 
-This chapter would be weakened if a simple global score reliably predicted trustworthy future behavior across contexts, counterparties, and time horizons better than contextual reputation evidence.
+This chapter would be weakened if a simple global score reliably predicted trustworthy
+future behavior across contexts, counterparties, and time horizons better than
+contextual reputation evidence.
 
-It would be strengthened if users overtrust scores, if receipt count becomes reputation theater, if high-score actors exploit context gaps, or if disputes require evidence that the score erased.
+It would be strengthened if users overtrust scores, if receipt count becomes reputation
+theater, if high-score actors exploit context gaps, or if disputes require evidence that
+the score erased.
 
 A concrete runtime test:
 
-Compare user decisions when shown a single score versus contextual reputation evidence: receipts, attestations, job types, counterparty history, dispute state, repair state, and non-claims.
+Compare user decisions when shown a single score versus contextual reputation evidence:
+receipts, attestations, job types, counterparty history, dispute state, repair state,
+and non-claims.
 
-If contextual evidence produces better decisions, then score-only reputation is insufficient.
+If contextual evidence produces better decisions, then score-only reputation is
+insufficient.
 
 ## 13. Open questions
 

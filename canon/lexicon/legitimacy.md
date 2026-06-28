@@ -2,15 +2,18 @@
 
 ## Definition
 
-Legitimacy is recognized authority to bind, judge, represent, or constrain future behavior.
+Legitimacy is recognized authority to bind, judge, represent, or constrain future
+behavior.
 
 ## Why it matters
 
-CRT treats legitimacy as necessary for durable commitments. A system can be technically valid while lacking legitimate authority over the actors it claims to govern.
+CRT treats legitimacy as necessary for durable commitments. A system can be technically
+valid while lacking legitimate authority over the actors it claims to govern.
 
 ## Observation
 
-Legitimacy appears when actors accept a constraint, decision, role, or record as binding for reasons beyond immediate force.
+Legitimacy appears when actors accept a constraint, decision, role, or record as binding
+for reasons beyond immediate force.
 
 ## Counterexamples
 
@@ -22,11 +25,13 @@ Consent can be invalid if produced by deception, dependency, or lack of meaningf
 
 ## Historical analogies
 
-Constitutions, courts, offices, religious authority, family roles, guild rules, corporate charters, and Bitcoin consensus all depend on recognized authority structures.
+Constitutions, courts, offices, religious authority, family roles, guild rules,
+corporate charters, and Bitcoin consensus all depend on recognized authority structures.
 
 ## Implications for HODLXXI
 
-HODLXXI should distinguish key control, operator authority, agent delegation, user consent, public verification, and legitimate constraint.
+HODLXXI should distinguish key control, operator authority, agent delegation, user
+consent, public verification, and legitimate constraint.
 
 ## Open questions
 

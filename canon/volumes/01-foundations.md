@@ -2,19 +2,25 @@
 
 ## Purpose
 
-This volume defines the basic objects of Cryptographic Reciprocity Theory before they become software mechanisms, economic instruments, or social rituals.
+This volume defines the basic objects of Cryptographic Reciprocity Theory before they
+become software mechanisms, economic instruments, or social rituals.
 
-It asks what trust, identity, memory, promise, obligation, reputation, forgiveness, legitimacy, and time mean when actors must cooperate under uncertainty across long horizons.
+It asks what trust, identity, memory, promise, obligation, reputation, forgiveness,
+legitimacy, and time mean when actors must cooperate under uncertainty across long
+horizons.
 
 ## Core question
 
-What must be true about actors, memory, promises, and constraints before durable cooperation can be made visible, accountable, and testable?
+What must be true about actors, memory, promises, and constraints before durable
+cooperation can be made visible, accountable, and testable?
 
 ## Scope
 
-This volume covers foundational concepts. It does not yet design protocols, governance systems, markets, or agent capabilities.
+This volume covers foundational concepts. It does not yet design protocols, governance
+systems, markets, or agent capabilities.
 
-It should give later volumes a shared language so that engineering work does not silently redefine the theory.
+It should give later volumes a shared language so that engineering work does not
+silently redefine the theory.
 
 ## What this volume claims
 
@@ -47,7 +53,8 @@ It should give later volumes a shared language so that engineering work does not
 - [Forgiveness](../lexicon/forgiveness.md)
 - [Legitimacy](../lexicon/legitimacy.md)
 
-Future terms likely needed here include time, evidence, proof, meaning, context, and continuity.
+Future terms likely needed here include time, evidence, proof, meaning, context, and
+continuity.
 
 ## Runtime relevance
 
@@ -63,7 +70,8 @@ This volume anchors the vocabulary used by HODLXXI runtime surfaces such as:
 - reputation telemetry;
 - runtime non-claims.
 
-The runtime should be treated as an evidence generator, not as proof that the foundational claims are true.
+The runtime should be treated as an evidence generator, not as proof that the
+foundational claims are true.
 
 ## Failure modes
 
@@ -89,9 +97,12 @@ The runtime should be treated as an evidence generator, not as proof that the fo
 
 ## Falsification focus
 
-This volume should be considered weak wherever its definitions fail to predict observable behavior in HODLXXI runtime, covenant practice, or long-running human-agent interaction.
+This volume should be considered weak wherever its definitions fail to predict
+observable behavior in HODLXXI runtime, covenant practice, or long-running human-agent
+interaction.
 
-It should be revised wherever its terms allow users, agents, or institutions to overread cryptographic events as human meaning.
+It should be revised wherever its terms allow users, agents, or institutions to overread
+cryptographic events as human meaning.
 
 ## Open questions
 

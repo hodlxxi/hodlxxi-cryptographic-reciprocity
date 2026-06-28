@@ -1,12 +1,17 @@
 # CRT Canon Charter
 
-CRT Canon exists to investigate the foundations of trust, reciprocity, memory, identity, obligation, forgiveness, reputation, legitimacy, long-running human relationships, long-running AI agents, and human-agent coexistence.
+CRT Canon exists to investigate the foundations of trust, reciprocity, memory, identity,
+obligation, forgiveness, reputation, legitimacy, long-running human relationships,
+long-running AI agents, and human-agent coexistence.
 
-It should not optimize for popularity, ideological consistency, or short-term engineering velocity.
+It should not optimize for popularity, ideological consistency, or short-term
+engineering velocity.
 
 ## Core thesis under investigation
 
-Cryptographic Reciprocity Theory investigates whether durable cooperation can emerge from cryptographically remembered reciprocal commitments among bounded humans and future AI agents.
+Cryptographic Reciprocity Theory investigates whether durable cooperation can emerge
+from cryptographically remembered reciprocal commitments among bounded humans and future
+AI agents.
 
 This is a thesis to test, not a conclusion to defend.
 
@@ -25,8 +30,12 @@ Every Canon chapter should distinguish:
 
 The greatest danger to HODLXXI is not technical failure.
 
-The greatest danger is that the system proves the existence of a commitment while failing to preserve its human meaning.
+The greatest danger is that the system proves the existence of a commitment while
+failing to preserve its human meaning.
 
-A user may lock sats, sign a message, receive a receipt, complete verification, and still use the system as status theater, symbolic laundering, empty ritual, false loyalty, or reputation fraud.
+A user may lock sats, sign a message, receive a receipt, complete verification, and
+still use the system as status theater, symbolic laundering, empty ritual, false
+loyalty, or reputation fraud.
 
-Therefore HODLXXI must not only be a cryptographic proof system. It must become a behavioral constraint system.
+Therefore HODLXXI must not only be a cryptographic proof system. It must become a
+behavioral constraint system.

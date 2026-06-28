@@ -4,7 +4,10 @@
 
 When does a paid action become an obligation?
 
-This matters because HODLXXI uses Lightning payments, paid jobs, signed receipts, requester proofs, attestations, and verification surfaces. These mechanisms can show cost and execution, but they can also be overread as proof that a meaningful promise was accepted and fulfilled.
+This matters because HODLXXI uses Lightning payments, paid jobs, signed receipts,
+requester proofs, attestations, and verification surfaces. These mechanisms can show
+cost and execution, but they can also be overread as proof that a meaningful promise was
+accepted and fulfilled.
 
 ## 2. Scope
 
@@ -38,11 +41,14 @@ Related chapters:
 
 Payment creates cost.
 
-Cost can signal seriousness, filter spam, and mark that something entered an execution path.
+Cost can signal seriousness, filter spam, and mark that something entered an execution
+path.
 
-But payment does not automatically define what was promised, who accepted it, what would count as completion, what would count as breach, or what remedy should follow failure.
+But payment does not automatically define what was promised, who accepted it, what would
+count as completion, what would count as breach, or what remedy should follow failure.
 
-A paid job can complete in a narrow runtime sense while still failing a human expectation.
+A paid job can complete in a narrow runtime sense while still failing a human
+expectation.
 
 A receipt can verify while the obligation remains undefined.
 
@@ -52,7 +58,8 @@ Payment is evidence of cost.
 
 It is not an obligation by itself.
 
-An obligation requires at least a counterparty, a promise or expectation, acceptance criteria, a time horizon, a breach condition, and a remedy or repair path.
+An obligation requires at least a counterparty, a promise or expectation, acceptance
+criteria, a time horizon, a breach condition, and a remedy or repair path.
 
 Without these, payment produces evidence of exchange, not a full obligation relation.
 
@@ -66,7 +73,8 @@ It does not claim that obligations must be legal contracts.
 
 It does not claim that every small job needs a heavy obligation model.
 
-It claims that HODLXXI should not represent payment or receipt verification as proof of fulfilled obligation unless obligation semantics are explicitly modeled.
+It claims that HODLXXI should not represent payment or receipt verification as proof of
+fulfilled obligation unless obligation semantics are explicitly modeled.
 
 Payment does not by itself prove:
 
@@ -127,17 +135,22 @@ Relevant HODLXXI runtime mechanisms include:
 
 ## 8. Counterarguments
 
-One objection is that payment itself is the obligation: the user paid, the agent delivered.
+One objection is that payment itself is the obligation: the user paid, the agent
+delivered.
 
-That can be true for very narrow jobs if the terms are simple and accepted. But even then, the obligation exists because the terms and completion criteria are understood, not because payment alone magically created them.
+That can be true for very narrow jobs if the terms are simple and accepted. But even
+then, the obligation exists because the terms and completion criteria are understood,
+not because payment alone magically created them.
 
 Another objection is that explicit obligation semantics are too heavy for small tasks.
 
-That may be true. HODLXXI can keep small jobs lightweight while still avoiding overclaim. The runtime can say: paid execution completed, not obligation fulfilled.
+That may be true. HODLXXI can keep small jobs lightweight while still avoiding
+overclaim. The runtime can say: paid execution completed, not obligation fulfilled.
 
 A third objection is that markets already solve this.
 
-Markets solve some exchange problems, but they still rely on norms, refunds, dispute handling, warranties, ratings, reputation, and legal or social enforcement.
+Markets solve some exchange problems, but they still rely on norms, refunds, dispute
+handling, warranties, ratings, reputation, and legal or social enforcement.
 
 ## 9. Historical analogies
 
@@ -145,11 +158,14 @@ A tip signals gratitude or incentive, but not always a contract.
 
 A receipt proves a transaction, but not satisfaction or remedy.
 
-A deposit can signal commitment, but the rules of forfeiture, return, and breach must be known.
+A deposit can signal commitment, but the rules of forfeiture, return, and breach must be
+known.
 
-Merchant credit systems depended not only on payment but on remembered performance and remedy.
+Merchant credit systems depended not only on payment but on remembered performance and
+remedy.
 
-Bitcoin transactions settle according to consensus rules, but they do not encode the full off-chain obligation that motivated the payment.
+Bitcoin transactions settle according to consensus rules, but they do not encode the
+full off-chain obligation that motivated the payment.
 
 ## 10. Failure modes
 
@@ -180,21 +196,28 @@ Future runtime work may need an obligation object with fields such as:
 - repair events;
 - closure state.
 
-Until then, paid job surfaces should use narrow language: request, payment, execution, result, receipt, verification.
+Until then, paid job surfaces should use narrow language: request, payment, execution,
+result, receipt, verification.
 
 They should not silently imply fulfilled obligation.
 
 ## 12. Falsification
 
-This chapter would be weakened if paid job events alone reliably produced shared understanding, low dispute rates, clear remedies, and durable cooperation without explicit obligation modeling.
+This chapter would be weakened if paid job events alone reliably produced shared
+understanding, low dispute rates, clear remedies, and durable cooperation without
+explicit obligation modeling.
 
-It would be strengthened if users overread payment or receipts as commitment, if disputes arise over completion criteria, or if reputation systems treat paid activity as fulfilled obligation.
+It would be strengthened if users overread payment or receipts as commitment, if
+disputes arise over completion criteria, or if reputation systems treat paid activity as
+fulfilled obligation.
 
 A concrete runtime test:
 
-Compare user interpretation of a paid receipt alone versus a paid receipt plus explicit promise, acceptance criteria, counterparty, dispute state, and remedy path.
+Compare user interpretation of a paid receipt alone versus a paid receipt plus explicit
+promise, acceptance criteria, counterparty, dispute state, and remedy path.
 
-If the second view produces better trust decisions, payment alone is insufficient as an obligation primitive.
+If the second view produces better trust decisions, payment alone is insufficient as an
+obligation primitive.
 
 ## 13. Open questions
 
