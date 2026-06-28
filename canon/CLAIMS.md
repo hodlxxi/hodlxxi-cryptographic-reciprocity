@@ -10,6 +10,7 @@ chapter files that define them.
 
 | Claim ID | Source chapter | Claim | Runtime relevance | Status |
 | --- | --- | --- | --- | --- |
+| `CRT-EVIDENCE-001` | [Evidence Is Not Truth](chapters/evidence-is-not-truth.md) | Evidence is retained information that can support, weaken, or revise interpretation; it is not truth by itself. | Runtime evidence surfaces must expose what they prove, what they do not prove, and what judgment or context remains outside verification. | active |
 | `CRT-RECEIPT-001` | [Receipts as Event Proofs](chapters/receipts-as-event-proofs.md) | A receipt is evidence that a bounded runtime event occurred; it is not evidence of obligation fulfillment, human satisfaction, or trustworthiness. | Signed receipts, `/agent/verify`, and event memory must expose receipt boundaries and avoid satisfaction or obligation claims without additional context. | active |
 | `CRT-IDENTITY-001` | [Identity Is Not Key Control](chapters/identity-is-not-key-control.md) | Key control is evidence of control over a cryptographic capability; it is not full identity. | Operator keys, agent keys, requester keys, and Human Proof need continuity, role, recovery, and non-claim context before identity claims are strengthened. | active |
 | `CRT-OBLIGATION-001` | [Obligation Is Not Payment](chapters/obligation-is-not-payment.md) | Payment is cost evidence; it is not obligation. | Lightning invoices, paid jobs, and receipts need obligation objects, acceptance criteria, and settlement context before fulfillment or satisfaction claims are made. | active |

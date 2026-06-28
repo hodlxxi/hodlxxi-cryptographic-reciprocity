@@ -34,6 +34,7 @@ The stable claim IDs in this chapter layer are centrally registered in the [CRT 
 
 | Chapter | Claim ID | Primary boundary | Runtime relevance |
 | --- | --- | --- | --- |
+| [Evidence Is Not Truth](chapters/evidence-is-not-truth.md) | `CRT-EVIDENCE-001` | Evidence supports interpretation; it is not truth by itself. | receipts, attestations, event chains, Human Proof, verification, reputation evidence. |
 | [Receipts as Event Proofs](chapters/receipts-as-event-proofs.md) | `CRT-RECEIPT-001` | Receipt proves event, not obligation. | `/agent/verify`, signed receipts, event memory. |
 | [Identity Is Not Key Control](chapters/identity-is-not-key-control.md) | `CRT-IDENTITY-001` | Key control is not full identity. | operator key, agent key, requester key, Human Proof. |
 | [Reputation Is Not a Score](chapters/reputation-is-not-a-score.md) | `CRT-REPUTATION-001` | Reputation is compressed memory, not a simple score. | `/agent/reputation`, attestations, job history. |
@@ -47,14 +48,15 @@ The stable claim IDs in this chapter layer are centrally registered in the [CRT 
 
 | Runtime surface | What it can prove | What it must not be read as | Related chapter | Missing mechanism |
 | --- | --- | --- | --- | --- |
+| Evidence surface | Retained information can support, weaken, or revise interpretation. | Truth, justice, legitimacy, satisfaction, or final judgment. | Evidence Is Not Truth (`CRT-EVIDENCE-001`) | Evidence boundary metadata; contradiction, revocation, and counter-attestation paths. |
 | Signed receipt | A bounded runtime event was signed. | Fulfilled obligation or human satisfaction. | Receipts as Event Proofs (`CRT-RECEIPT-001`) | Obligation object. |
 | `/agent/verify/<job_id>` | A receipt can be checked. | Final judgment about meaning. | Receipts as Event Proofs (`CRT-RECEIPT-001`) | Verification non-claims. |
 | Agent key | A runtime key signed something. | Full agent identity or authority. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | Agent continuity record. |
 | Operator key | A declared operator anchor exists. | Approval of every runtime action. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | Operator-agent relation record. |
 | Requester key | A key is associated with a request. | Legal identity, payer identity, or full counterparty. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | First-class requester context. |
 | `/agent/reputation` | Aggregated operational memory. | Global social trust score. | Reputation Is Not a Score (`CRT-REPUTATION-001`) | Contextual reputation model. |
-| Attestation | A statement was exposed or signed. | Truth, legitimacy, or final judgment. | Reputation Is Not a Score (`CRT-REPUTATION-001`) | Counter-attestation path. |
-| Event chain | Local continuity of recorded events. | External anchoring or justice. | Memory Before Forgiveness (`CRT-FORGIVENESS-001`) | Dispute and repair lifecycle. |
+| Attestation | A statement was exposed or signed. | Truth, legitimacy, or final judgment. | Evidence Is Not Truth (`CRT-EVIDENCE-001`) | Issuer context; revocation and counter-attestation path. |
+| Event chain | Local continuity of recorded events. | External anchoring, truth machine, or justice. | Evidence Is Not Truth (`CRT-EVIDENCE-001`) | Dispute and repair lifecycle; external anchoring. |
 | `/agent/capabilities` | What the agent says it can do. | What the agent is allowed to do. | Bounded Authority for AI Agents (`CRT-AGENT-AUTHORITY-001`) | Delegation record. |
 | Agent message | A key signed a message. | Authority to represent another actor. | Bounded Authority for AI Agents (`CRT-AGENT-AUTHORITY-001`) | Authority proof. |
 | Lightning invoice | A payment path exists. | Promise, consent, or obligation. | Obligation Is Not Payment (`CRT-OBLIGATION-001`) | Acceptance criteria. |
@@ -76,7 +78,7 @@ The stable claim IDs in this chapter layer are centrally registered in the [CRT 
 | Reputation | Defined and chaptered. | Needs contextual reputation model. |
 | Forgiveness | Defined and chaptered. | Needs repair lifecycle. |
 | Legitimacy | Defined, but underdeveloped. | Needs legitimacy sources and limits. |
-| Evidence | Defined. | Needs evidence taxonomy. |
+| Evidence | Defined and chaptered. | Needs evidence boundary metadata and contradiction paths. |
 | Proof | Defined. | Needs proof boundary matrix. |
 | Verification | Defined. | Needs verification non-claims. |
 | Receipt | Defined and chaptered. | Needs obligation boundary integration. |
@@ -90,7 +92,16 @@ The stable claim IDs in this chapter layer are centrally registered in the [CRT 
 
 These are not immediate runtime tasks. They are Canon-level mechanism candidates.
 
-1. [`obligation-object-v0`](mechanisms/obligation-object-v0.md)
+1. `evidence-boundary-metadata-v0`
+   - evidence type;
+   - issuer or recorder;
+   - verification rule;
+   - context;
+   - non-claims;
+   - revocation path;
+   - counter-evidence path;
+   - judgment boundary.
+2. [`obligation-object-v0`](mechanisms/obligation-object-v0.md)
    - counterparty;
    - promise;
    - acceptance criteria;
@@ -100,7 +111,7 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - remedy path;
    - repair state;
    - closure state.
-2. [`delegation-record-v0`](mechanisms/delegation-record-v0.md)
+3. [`delegation-record-v0`](mechanisms/delegation-record-v0.md)
    - delegator;
    - delegate;
    - scope;
@@ -109,7 +120,7 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - evidence of consent;
    - revocation path;
    - accountability path.
-3. [`repair-lifecycle-v0`](mechanisms/repair-lifecycle-v0.md)
+4. [`repair-lifecycle-v0`](mechanisms/repair-lifecycle-v0.md)
    - disputed event;
    - acknowledgement;
    - correction;
@@ -118,7 +129,7 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - post-repair behavior;
    - forgiveness annotation;
    - non-erasure rule.
-4. [`reciprocity-pattern-v0`](mechanisms/reciprocity-pattern-v0.md)
+5. [`reciprocity-pattern-v0`](mechanisms/reciprocity-pattern-v0.md)
    - counterparties;
    - repeated events;
    - time horizon;
@@ -127,14 +138,14 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - repair;
    - re-entry;
    - non-claims.
-5. [`identity-continuity-v0`](mechanisms/identity-continuity-v0.md)
+6. [`identity-continuity-v0`](mechanisms/identity-continuity-v0.md)
    - key purpose;
    - rotation;
    - revocation;
    - compromise notice;
    - operator-agent relation;
    - continuity evidence.
-6. [`contextual-reputation-v0`](mechanisms/contextual-reputation-v0.md)
+7. [`contextual-reputation-v0`](mechanisms/contextual-reputation-v0.md)
    - reputation for what;
    - according to whom;
    - over what time period;
@@ -149,17 +160,19 @@ decisions.
 
 Initial falsification tests:
 
-1. Receipt-only vs receipt-plus-obligation context
+1. Evidence-only vs evidence-plus-boundary context
+   - If users make equally good decisions from bare evidence without non-claims, contradiction paths, issuer context, or judgment boundaries, the evidence boundary may be too strong.
+2. Receipt-only vs receipt-plus-obligation context
    - If users make equally good trust decisions from receipt-only views, the obligation boundary may be too strong.
-2. Key-only vs key-plus-identity-context
+3. Key-only vs key-plus-identity-context
    - If key-only views reliably support correct identity decisions, the identity boundary may be too strong.
-3. Score-only vs contextual reputation
+4. Score-only vs contextual reputation
    - If a simple global score outperforms contextual reputation across cases, the reputation boundary may be too strong.
-4. Capability-only vs scoped agent authority
+5. Capability-only vs scoped agent authority
    - If capability-only agent surfaces produce fewer disputes and better delegation decisions, the agent authority boundary may be too strong.
-5. Lockup-only vs lockup-plus-meaning context
+6. Lockup-only vs lockup-plus-meaning context
    - If locked value alone reliably predicts cooperation and preserved meaning, the commitment boundary may be too strong.
-6. Transaction-count vs reciprocal-pattern evidence
+7. Transaction-count vs reciprocal-pattern evidence
    - If transaction count alone predicts durable cooperation better than relationship pattern evidence, the reciprocity boundary may be too strong.
 
 ## Next Canon work
