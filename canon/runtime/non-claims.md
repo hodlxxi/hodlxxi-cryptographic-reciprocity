@@ -2,9 +2,16 @@
 
 ## Why non-claims matter
 
-HODLXXI's greatest danger is proving that an action occurred while failing to preserve its human meaning. A valid signature, payment, receipt, or event-chain link can make current runtime evidence auditable while still leaving obligation, authority, acceptance, context, repair, and social interpretation unresolved.
+HODLXXI's greatest danger is proving that an action occurred while failing to preserve
+its human meaning. A valid signature, payment, receipt, or event-chain link can make
+current runtime evidence auditable while still leaving obligation, authority,
+acceptance, context, repair, and social interpretation unresolved.
 
-Non-claims prevent CRT from overreading operational facts as social facts. They distinguish event proof vs obligation proof, key control vs identity, paid action vs commitment, operational reputation telemetry vs social reputation, local event chain vs durable public memory, declared covenant vs funded or capital-backed commitment, agent capability vs legitimate delegated authority, and proof of funds vs trustworthiness.
+Non-claims prevent CRT from overreading operational facts as social facts. They
+distinguish event proof vs obligation proof, key control vs identity, paid action vs
+commitment, operational reputation telemetry vs social reputation, local event chain vs
+durable public memory, declared covenant vs funded or capital-backed commitment, agent
+capability vs legitimate delegated authority, and proof of funds vs trustworthiness.
 
 ## Non-claim table
 
@@ -23,4 +30,5 @@ Non-claims prevent CRT from overreading operational facts as social facts. They 
 
 ## Rule
 
-A valid cryptographic proof must not be described as proof of human meaning unless the human meaning is explicitly modeled, bounded, and falsifiable.
+A valid cryptographic proof must not be described as proof of human meaning unless the
+human meaning is explicitly modeled, bounded, and falsifiable.

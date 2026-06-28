@@ -2,25 +2,29 @@
 
 ## Purpose
 
-This document defines the minimum conceptual structure needed to represent reciprocity in HODLXXI.
+This document defines the minimum conceptual structure needed to represent reciprocity
+in HODLXXI.
 
-Reciprocity is not a transaction.
-Reciprocity is not payment history.
-Reciprocity is not transaction count.
-Reciprocity is not a trust score.
-Reciprocity is not symmetry at every moment.
-Reciprocity is not immediate exchange.
-Reciprocity is not guaranteed by friendship, kinship, covenant, or agent interaction.
+Reciprocity is not a transaction. Reciprocity is not payment history. Reciprocity is not
+transaction count. Reciprocity is not a trust score. Reciprocity is not symmetry at
+every moment. Reciprocity is not immediate exchange. Reciprocity is not guaranteed by
+friendship, kinship, covenant, or agent interaction.
 
-Reciprocity requires repeated interaction, remembered context, recognizable counterparties, expectation, asymmetry tolerance, time horizon, repair path, and evidence of response across time.
+Reciprocity requires repeated interaction, remembered context, recognizable
+counterparties, expectation, asymmetry tolerance, time horizon, repair path, and
+evidence of response across time.
 
-This is a Canon-level mechanism specification. It is not a runtime schema, API contract, relationship classifier, legal claim, or implementation claim.
+This is a Canon-level mechanism specification. It is not a runtime schema, API contract,
+relationship classifier, legal claim, or implementation claim.
 
 ## Problem
 
-HODLXXI has receipts, payments, obligations, delegation records, repair records, covenants, reputation memory, marketplace interactions, agent messages, and trust events.
+HODLXXI has receipts, payments, obligations, delegation records, repair records,
+covenants, reputation memory, marketplace interactions, agent messages, and trust
+events.
 
-These surfaces can preserve events and evidence, but they do not by themselves preserve reciprocal meaning. Users may infer false claims:
+These surfaces can preserve events and evidence, but they do not by themselves preserve
+reciprocal meaning. Users may infer false claims:
 
 - many transactions -> reciprocity;
 - payment returned -> reciprocity restored;
@@ -31,7 +35,9 @@ These surfaces can preserve events and evidence, but they do not by themselves p
 - repair completed -> reciprocity restored;
 - agent interaction -> relationship exists.
 
-The reciprocity pattern exists to prevent those false inference chains. It makes visible the difference between event sequence, counterparties, expectation, asymmetry, memory, repair, and bounded evidence over time.
+The reciprocity pattern exists to prevent those false inference chains. It makes visible
+the difference between event sequence, counterparties, expectation, asymmetry, memory,
+repair, and bounded evidence over time.
 
 ## Non-goals
 
@@ -49,7 +55,9 @@ This document does not:
 
 ## Required fields
 
-A minimum reciprocity pattern needs the following fields before HODLXXI can honestly represent reciprocal cooperation as a pattern across time rather than a single transaction, payment, receipt, or exchange.
+A minimum reciprocity pattern needs the following fields before HODLXXI can honestly
+represent reciprocal cooperation as a pattern across time rather than a single
+transaction, payment, receipt, or exchange.
 
 | Field | Description | Why it is required | What it does not prove |
 | --- | --- | --- | --- |
@@ -69,7 +77,8 @@ A minimum reciprocity pattern needs the following fields before HODLXXI can hone
 
 ## Optional fields
 
-Optional fields may add precision in contexts where reciprocity patterns are privacy-sensitive, high-stakes, mediated, contested, agentic, or marketplace-adjacent:
+Optional fields may add precision in contexts where reciprocity patterns are
+privacy-sensitive, high-stakes, mediated, contested, agentic, or marketplace-adjacent:
 
 - `privacy_scope`
 - `disclosure_policy`
@@ -88,13 +97,20 @@ Optional fields may add precision in contexts where reciprocity patterns are pri
 - `exit_conditions`
 - `version`
 
-These fields should remain optional because reciprocal patterns vary by relationship, severity, privacy, power asymmetry, evidentiary need, and time horizon. A casual marketplace pattern should not require the same disclosure as a long-running covenant, family support pattern, delegation relationship, or contested repair process.
+These fields should remain optional because reciprocal patterns vary by relationship,
+severity, privacy, power asymmetry, evidentiary need, and time horizon. A casual
+marketplace pattern should not require the same disclosure as a long-running covenant,
+family support pattern, delegation relationship, or contested repair process.
 
-Optional fields must not become hidden mandatory bureaucracy. They should add context where needed without implying that an omitted emotion marker, mediator, verifier, or risk field makes a low-stakes pattern invalid.
+Optional fields must not become hidden mandatory bureaucracy. They should add context
+where needed without implying that an omitted emotion marker, mediator, verifier, or
+risk field makes a low-stakes pattern invalid.
 
 ## State model
 
-The following lifecycle is a conceptual model, not a runtime state machine. It names states that may be useful when discussing reciprocal patterns across events, actors, memory, expectation, asymmetry, repair, and time.
+The following lifecycle is a conceptual model, not a runtime state machine. It names
+states that may be useful when discussing reciprocal patterns across events, actors,
+memory, expectation, asymmetry, repair, and time.
 
 | State | Meaning | Unsafe inference to avoid |
 | --- | --- | --- |
@@ -114,7 +130,8 @@ The following lifecycle is a conceptual model, not a runtime state machine. It n
 
 ## Runtime surfaces
 
-The reciprocity pattern may refer to existing or expected runtime surfaces, but none of these surfaces proves reciprocity by itself.
+The reciprocity pattern may refer to existing or expected runtime surfaces, but none of
+these surfaces proves reciprocity by itself.
 
 | Runtime surface | Possible role in reciprocity pattern | What it does not prove alone |
 | --- | --- | --- |
@@ -150,7 +167,8 @@ A well-formed reciprocity pattern can prove or support only bounded claims:
 - that evidence links were attached;
 - that non-claims were visible.
 
-It still does not prove friendship, loyalty, love, legitimacy, stable cooperation, restored trust, or moral worth by itself.
+It still does not prove friendship, loyalty, love, legitimacy, stable cooperation,
+restored trust, or moral worth by itself.
 
 ## What it must not prove
 

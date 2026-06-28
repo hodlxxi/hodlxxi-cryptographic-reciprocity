@@ -2,27 +2,30 @@
 
 ## Purpose
 
-This document defines the minimum conceptual structure needed to represent contextual reputation in HODLXXI.
+This document defines the minimum conceptual structure needed to represent contextual
+reputation in HODLXXI.
 
-Reputation is not a global score.
-Reputation is not popularity.
-Reputation is not moral worth.
-Reputation is not identity.
-Reputation is not reciprocity.
-Reputation is not a badge.
-Reputation is not a final judgment.
-Reputation is not erased by forgiveness.
+Reputation is not a global score. Reputation is not popularity. Reputation is not moral
+worth. Reputation is not identity. Reputation is not reciprocity. Reputation is not a
+badge. Reputation is not a final judgment. Reputation is not erased by forgiveness.
 Reputation is not restored by payment alone.
 
-Contextual reputation requires remembered events, role context, domain context, time horizon, evidence links, repair history, dispute status, confidence limits, and explicit non-claims.
+Contextual reputation requires remembered events, role context, domain context, time
+horizon, evidence links, repair history, dispute status, confidence limits, and explicit
+non-claims.
 
-This is a Canon-level mechanism specification. It is not a runtime schema, API contract, scoring system, legal process, or implementation claim.
+This is a Canon-level mechanism specification. It is not a runtime schema, API contract,
+scoring system, legal process, or implementation claim.
 
 ## Problem
 
-HODLXXI has receipts, attestations, trust events, reputation endpoints, obligations, delegations, repair lifecycles, reciprocity patterns, identity continuity records, marketplace interactions, Human Proof, and covenant references.
+HODLXXI has receipts, attestations, trust events, reputation endpoints, obligations,
+delegations, repair lifecycles, reciprocity patterns, identity continuity records,
+marketplace interactions, Human Proof, and covenant references.
 
-These surfaces can preserve events and bounded statements, but they can also invite false inference chains if reputation is displayed without context. Users may infer stronger claims than the system preserved:
+These surfaces can preserve events and bounded statements, but they can also invite
+false inference chains if reputation is displayed without context. Users may infer
+stronger claims than the system preserved:
 
 - high score -> trustworthy;
 - many receipts -> good reputation;
@@ -35,7 +38,10 @@ These surfaces can preserve events and bounded statements, but they can also inv
 - covenant lockup -> high reputation;
 - agent fluency -> agent reputation.
 
-The contextual reputation record exists to prevent those false inference chains. It makes visible the difference between compressed memory, evidence, domain, role, dispute state, repair history, identity context, reciprocity context, and the claims HODLXXI must not make.
+The contextual reputation record exists to prevent those false inference chains. It
+makes visible the difference between compressed memory, evidence, domain, role, dispute
+state, repair history, identity context, reciprocity context, and the claims HODLXXI
+must not make.
 
 ## Non-goals
 
@@ -55,7 +61,9 @@ This document does not:
 
 ## Required fields
 
-A minimum contextual reputation record needs the following fields before HODLXXI can honestly represent reputation as contextual compressed memory rather than as a global score, popularity metric, trust badge, or moral rank.
+A minimum contextual reputation record needs the following fields before HODLXXI can
+honestly represent reputation as contextual compressed memory rather than as a global
+score, popularity metric, trust badge, or moral rank.
 
 | Field | Description | Why it is required | What it does not prove |
 | --- | --- | --- | --- |
@@ -78,7 +86,8 @@ A minimum contextual reputation record needs the following fields before HODLXXI
 
 ## Optional fields
 
-Optional fields may improve precision in some contexts without making every contextual reputation record too heavy:
+Optional fields may improve precision in some contexts without making every contextual
+reputation record too heavy:
 
 - `privacy_scope`
 - `disclosure_policy`
@@ -96,13 +105,22 @@ Optional fields may improve precision in some contexts without making every cont
 - `negative_memory_policy`
 - `version`
 
-These fields should remain optional because reputation contexts differ by stakes, privacy, reversibility, adversarial pressure, domain, role, and evidentiary burden. A low-stakes marketplace interaction may need a lightweight contextual summary. A long-running delegation relationship, contested repair history, or covenant-adjacent relationship may need richer disclosure, appeal, decay, mediator, correction, and manipulation-risk context.
+These fields should remain optional because reputation contexts differ by stakes,
+privacy, reversibility, adversarial pressure, domain, role, and evidentiary burden. A
+low-stakes marketplace interaction may need a lightweight contextual summary. A
+long-running delegation relationship, contested repair history, or covenant-adjacent
+relationship may need richer disclosure, appeal, decay, mediator, correction, and
+manipulation-risk context.
 
-Optional fields must not become hidden mandatory bureaucracy. They should add precision where needed without implying that a contextual reputation record is illegitimate merely because it omits heavyweight context inappropriate to the domain.
+Optional fields must not become hidden mandatory bureaucracy. They should add precision
+where needed without implying that a contextual reputation record is illegitimate merely
+because it omits heavyweight context inappropriate to the domain.
 
 ## State model
 
-The following lifecycle is a conceptual model, not a runtime state machine. It names states that may be useful when discussing contextual reputation records, updates, disputes, repairs, forgiveness annotations, stale memory, and retirement.
+The following lifecycle is a conceptual model, not a runtime state machine. It names
+states that may be useful when discussing contextual reputation records, updates,
+disputes, repairs, forgiveness annotations, stale memory, and retirement.
 
 | State | Meaning | Unsafe inference to avoid |
 | --- | --- | --- |
@@ -123,7 +141,8 @@ The following lifecycle is a conceptual model, not a runtime state machine. It n
 
 ## Runtime surfaces
 
-Contextual reputation may refer to existing or expected runtime surfaces, but none of these surfaces proves contextual reputation by itself.
+Contextual reputation may refer to existing or expected runtime surfaces, but none of
+these surfaces proves contextual reputation by itself.
 
 | Runtime surface | Possible role in contextual reputation | What it does not prove alone |
 | --- | --- | --- |
@@ -159,11 +178,13 @@ A well-formed contextual reputation record can prove or support only bounded cla
 - that obligation, delegation, repair, reciprocity, identity, and dispute contexts were referenced;
 - that confidence limits and non-claims were visible.
 
-It still does not prove moral worth, global trustworthiness, identity, legitimacy, authority, future behavior, or restored trust by itself.
+It still does not prove moral worth, global trustworthiness, identity, legitimacy,
+authority, future behavior, or restored trust by itself.
 
 ## What it must not prove
 
-The existence or state of a contextual reputation record must not be used for these overclaims:
+The existence or state of a contextual reputation record must not be used for these
+overclaims:
 
 - reputation exists -> actor is trustworthy;
 - high reputation -> moral worth;

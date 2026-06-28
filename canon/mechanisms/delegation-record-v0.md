@@ -2,24 +2,27 @@
 
 ## Purpose
 
-This document defines the minimum conceptual record required to represent delegated authority in HODLXXI.
+This document defines the minimum conceptual record required to represent delegated
+authority in HODLXXI.
 
-Delegation is not capability.
-Delegation is not key control.
-Delegation is not mere user familiarity.
-Delegation is not agent usefulness.
-Delegation is not payment.
-Delegation is not a signed message by itself.
+Delegation is not capability. Delegation is not key control. Delegation is not mere user
+familiarity. Delegation is not agent usefulness. Delegation is not payment. Delegation
+is not a signed message by itself.
 
-Delegation requires a bounded grant from a delegator to a delegate, within a scope, duration, permitted action set, evidence basis, revocation path, and accountability path.
+Delegation requires a bounded grant from a delegator to a delegate, within a scope,
+duration, permitted action set, evidence basis, revocation path, and accountability
+path.
 
-This is a Canon-level mechanism specification. It is not a runtime schema, API contract, legal agency framework, or implementation claim.
+This is a Canon-level mechanism specification. It is not a runtime schema, API contract,
+legal agency framework, or implementation claim.
 
 ## Problem
 
-HODLXXI has agent identity surfaces, operator keys, capabilities, paid jobs, receipts, Human Proof, inter-agent messages, marketplace interactions, and future agent workflows.
+HODLXXI has agent identity surfaces, operator keys, capabilities, paid jobs, receipts,
+Human Proof, inter-agent messages, marketplace interactions, and future agent workflows.
 
-These surfaces are useful, but users may infer stronger claims than the system preserved:
+These surfaces are useful, but users may infer stronger claims than the system
+preserved:
 
 - capability declared -> authority granted;
 - agent signed -> user approved;
@@ -29,7 +32,9 @@ These surfaces are useful, but users may infer stronger claims than the system p
 - fluent answer -> legitimate representative;
 - inter-agent message -> delegated authority.
 
-The delegation record exists to prevent those false inference chains. It makes the missing grant, scope, duration, evidence, revocation, and accountability structure visible before HODLXXI presents stronger claims about delegated authority.
+The delegation record exists to prevent those false inference chains. It makes the
+missing grant, scope, duration, evidence, revocation, and accountability structure
+visible before HODLXXI presents stronger claims about delegated authority.
 
 ## Non-goals
 
@@ -47,7 +52,8 @@ This document does not:
 
 ## Required fields
 
-A minimum delegation record needs the following fields before HODLXXI can honestly represent delegated authority.
+A minimum delegation record needs the following fields before HODLXXI can honestly
+represent delegated authority.
 
 | Field | Description | Why it is required | What it does not prove |
 | --- | --- | --- | --- |
@@ -82,13 +88,21 @@ Optional fields may help specific contexts without making every delegation recor
 - `audit_log_reference`
 - `version`
 
-These fields should remain optional because delegations vary in size, risk, privacy, reversibility, counterparty familiarity, and evidence needs. A simple bounded task may need a lightweight delegation record, while a high-risk agent workflow may need verifier, mediator, audit log, key rotation, compromise notice, subdelegation, obligation, and disclosure context.
+These fields should remain optional because delegations vary in size, risk, privacy,
+reversibility, counterparty familiarity, and evidence needs. A simple bounded task may
+need a lightweight delegation record, while a high-risk agent workflow may need
+verifier, mediator, audit log, key rotation, compromise notice, subdelegation,
+obligation, and disclosure context.
 
-Optional fields must not become hidden mandatory bureaucracy. They should add precision where needed without implying that a small, low-risk delegation is illegitimate merely because it omits heavyweight context.
+Optional fields must not become hidden mandatory bureaucracy. They should add precision
+where needed without implying that a small, low-risk delegation is illegitimate merely
+because it omits heavyweight context.
 
 ## State model
 
-The following lifecycle is a conceptual model, not a runtime state machine. It names states that may be useful when discussing delegation, use, challenge, revocation, misuse, repair, and closure.
+The following lifecycle is a conceptual model, not a runtime state machine. It names
+states that may be useful when discussing delegation, use, challenge, revocation,
+misuse, repair, and closure.
 
 | State | Meaning | Unsafe inference to avoid |
 | --- | --- | --- |
@@ -107,7 +121,8 @@ The following lifecycle is a conceptual model, not a runtime state machine. It n
 
 ## Runtime surfaces
 
-The delegation record may refer to existing or expected runtime surfaces, but none of these surfaces proves delegated authority by itself.
+The delegation record may refer to existing or expected runtime surfaces, but none of
+these surfaces proves delegated authority by itself.
 
 | Runtime surface | Possible role in delegation record | What it does not prove alone |
 | --- | --- | --- |
@@ -142,7 +157,8 @@ A well-formed delegation record can prove or support only bounded claims:
 - that revocation and accountability paths were declared;
 - that non-claims were visible.
 
-It still does not prove truth, competence, legitimacy, satisfaction, justice, or full identity by itself.
+It still does not prove truth, competence, legitimacy, satisfaction, justice, or full
+identity by itself.
 
 ## What it must not prove
 

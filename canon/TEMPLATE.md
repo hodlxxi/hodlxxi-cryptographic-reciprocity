@@ -2,7 +2,8 @@
 
 Use this template for every Canon chapter.
 
-A Canon chapter is not an essay, manifesto, or product document. It is a falsifiable research unit.
+A Canon chapter is not an essay, manifesto, or product document. It is a falsifiable
+research unit.
 
 Each chapter should make a claim clear enough to test, limit, revise, or reject.
 
@@ -10,7 +11,8 @@ Each chapter should make a claim clear enough to test, limit, revise, or reject.
 
 What are we trying to understand?
 
-Why does this question matter for trust, reciprocity, memory, identity, obligation, forgiveness, reputation, legitimacy, long-running agents, or HODLXXI?
+Why does this question matter for trust, reciprocity, memory, identity, obligation,
+forgiveness, reputation, legitimacy, long-running agents, or HODLXXI?
 
 ## 2. Scope
 
@@ -26,7 +28,8 @@ Which Lexicon terms does it rely on?
 
 What can be seen directly?
 
-Do not explain yet. Describe behavior, artifacts, incentives, records, scripts, receipts, failures, or human actions.
+Do not explain yet. Describe behavior, artifacts, incentives, records, scripts,
+receipts, failures, or human actions.
 
 Separate observations into categories where useful:
 
@@ -65,7 +68,8 @@ Use it to prevent overclaim, especially around:
 
 What mechanism might explain the observations?
 
-What role is played by memory, incentives, status, identity, capital, signatures, constraints, legitimacy, forgiveness, or repeated interaction?
+What role is played by memory, incentives, status, identity, capital, signatures,
+constraints, legitimacy, forgiveness, or repeated interaction?
 
 Why might the mechanism increase cooperation, accountability, continuity, or repair?
 
@@ -115,7 +119,9 @@ What would make the system look correct while failing in human meaning?
 
 Where has something similar appeared before?
 
-Possible sources include kinship systems, tribes, churches, guilds, merchant networks, honor cultures, debt jubilees, banking, constitutions, common law, Bitcoin, online reputation systems, failed communes, failed protocols, and cartelized institutions.
+Possible sources include kinship systems, tribes, churches, guilds, merchant networks,
+honor cultures, debt jubilees, banking, constitutions, common law, Bitcoin, online
+reputation systems, failed communes, failed protocols, and cartelized institutions.
 
 Do not use analogy as proof. Use analogy to generate hypotheses and failure modes.
 
@@ -162,7 +168,8 @@ What should not yet be built?
 
 What evidence would weaken or refute the chapter?
 
-What measurement, runtime behavior, user behavior, or failure mode would show that the claim does not hold?
+What measurement, runtime behavior, user behavior, or failure mode would show that the
+claim does not hold?
 
 What observation would force Canon revision?
 

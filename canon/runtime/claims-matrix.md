@@ -2,13 +2,18 @@
 
 ## Purpose
 
-This document prevents runtime endpoints, receipts, keys, payments, reputation telemetry, attestations, event chains, marketplace surfaces, and lockups from being read as stronger claims than they can support.
+This document prevents runtime endpoints, receipts, keys, payments, reputation
+telemetry, attestations, event chains, marketplace surfaces, and lockups from being read
+as stronger claims than they can support.
 
-Runtime surfaces can preserve bounded evidence. They do not automatically preserve human meaning, satisfaction, legitimacy, consent, obligation, identity, trust, forgiveness, or reciprocity.
+Runtime surfaces can preserve bounded evidence. They do not automatically preserve human
+meaning, satisfaction, legitimacy, consent, obligation, identity, trust, forgiveness, or
+reciprocity.
 
 Core rule:
 
-Runtime surfaces should expose what they prove, what they do not prove, and what mechanism would be required for stronger claims.
+Runtime surfaces should expose what they prove, what they do not prove, and what
+mechanism would be required for stronger claims.
 
 ## Claim levels
 
@@ -51,7 +56,8 @@ Runtime surfaces should expose what they prove, what they do not prove, and what
 
 ## Prohibited inferences
 
-The following inference chains are forbidden or unsafe unless an explicit mechanism supports the stronger claim:
+The following inference chains are forbidden or unsafe unless an explicit mechanism
+supports the stronger claim:
 
 - paid -> obligation fulfilled
 - receipt verified -> human satisfied

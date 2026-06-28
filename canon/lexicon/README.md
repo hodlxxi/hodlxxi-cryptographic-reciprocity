@@ -2,7 +2,8 @@
 
 The Lexicon defines the core language of Cryptographic Reciprocity Theory.
 
-This is not a glossary of convenient words. It is the operational language used to connect theory, architecture, runtime mechanisms, observations, and falsification tests.
+This is not a glossary of convenient words. It is the operational language used to
+connect theory, architecture, runtime mechanisms, observations, and falsification tests.
 
 ## Rule
 

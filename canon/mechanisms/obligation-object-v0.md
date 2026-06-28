@@ -2,21 +2,26 @@
 
 ## Purpose
 
-This document defines the minimum conceptual object needed to represent an obligation in HODLXXI.
+This document defines the minimum conceptual object needed to represent an obligation in
+HODLXXI.
 
-An obligation is not created by payment alone.
-An obligation is not proven by receipt alone.
-An obligation is not satisfied by execution alone.
+An obligation is not created by payment alone. An obligation is not proven by receipt
+alone. An obligation is not satisfied by execution alone.
 
-An obligation requires a bounded relation among actors, a promise or expected performance, acceptance criteria, time horizon, breach condition, and remedy or repair path.
+An obligation requires a bounded relation among actors, a promise or expected
+performance, acceptance criteria, time horizon, breach condition, and remedy or repair
+path.
 
-This is a Canon-level mechanism specification. It is not a runtime schema, API contract, legal contract template, or implementation claim.
+This is a Canon-level mechanism specification. It is not a runtime schema, API contract,
+legal contract template, or implementation claim.
 
 ## Problem
 
-HODLXXI has payments, requests, receipts, verification, attestations, reputation telemetry, event memory, and covenant lockups.
+HODLXXI has payments, requests, receipts, verification, attestations, reputation
+telemetry, event memory, and covenant lockups.
 
-These surfaces are useful, but users may infer stronger claims than the system preserved:
+These surfaces are useful, but users may infer stronger claims than the system
+preserved:
 
 - paid -> owed;
 - executed -> fulfilled;
@@ -24,7 +29,9 @@ These surfaces are useful, but users may infer stronger claims than the system p
 - lockup present -> committed;
 - attestation present -> settled.
 
-The obligation object exists to prevent those false inference chains. It makes the missing structure visible before HODLXXI presents stronger claims about promise, acceptance, breach, repair, or closure.
+The obligation object exists to prevent those false inference chains. It makes the
+missing structure visible before HODLXXI presents stronger claims about promise,
+acceptance, breach, repair, or closure.
 
 ## Non-goals
 
@@ -41,7 +48,8 @@ This document does not:
 
 ## Required fields
 
-A minimum obligation object needs the following fields before HODLXXI can honestly model an obligation.
+A minimum obligation object needs the following fields before HODLXXI can honestly model
+an obligation.
 
 | Field | Description | Why it is required | What it does not prove |
 | --- | --- | --- | --- |
@@ -73,13 +81,20 @@ Optional fields may help specific contexts without making every obligation objec
 - `repair_history`
 - `version`
 
-These fields should remain optional because obligations vary in size, risk, privacy, jurisdictional context, counterparty familiarity, and evidence needs. A tiny paid job may need only a lightweight obligation profile, while a durable relationship may need mediator, disclosure, delegation, covenant, and repair context.
+These fields should remain optional because obligations vary in size, risk, privacy,
+jurisdictional context, counterparty familiarity, and evidence needs. A tiny paid job
+may need only a lightweight obligation profile, while a durable relationship may need
+mediator, disclosure, delegation, covenant, and repair context.
 
-Optional fields must not become hidden mandatory bureaucracy. They should add precision where needed without implying that a small interaction is illegitimate merely because it omits heavyweight context.
+Optional fields must not become hidden mandatory bureaucracy. They should add precision
+where needed without implying that a small interaction is illegitimate merely because it
+omits heavyweight context.
 
 ## State model
 
-The following lifecycle is a conceptual model, not a runtime state machine. It names states that may be useful when discussing obligations, evidence, disputes, repair, and closure.
+The following lifecycle is a conceptual model, not a runtime state machine. It names
+states that may be useful when discussing obligations, evidence, disputes, repair, and
+closure.
 
 | State | Meaning | Unsafe inference to avoid |
 | --- | --- | --- |
@@ -99,7 +114,8 @@ The following lifecycle is a conceptual model, not a runtime state machine. It n
 
 ## Runtime surfaces
 
-The obligation object may refer to existing or expected runtime surfaces, but none of these surfaces proves obligation by itself.
+The obligation object may refer to existing or expected runtime surfaces, but none of
+these surfaces proves obligation by itself.
 
 | Runtime surface | Possible role in obligation object | What it does not prove alone |
 | --- | --- | --- |
@@ -127,7 +143,8 @@ A well-formed obligation object can prove or support only bounded claims:
 - that dispute or closure state was recorded;
 - that non-claims were visible.
 
-It still does not prove truth, satisfaction, legitimacy, justice, or full identity by itself.
+It still does not prove truth, satisfaction, legitimacy, justice, or full identity by
+itself.
 
 ## What it must not prove
 

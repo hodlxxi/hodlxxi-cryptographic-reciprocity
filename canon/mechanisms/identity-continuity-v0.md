@@ -2,27 +2,30 @@
 
 ## Purpose
 
-This document defines the minimum conceptual structure needed to represent identity continuity in HODLXXI.
+This document defines the minimum conceptual structure needed to represent identity
+continuity in HODLXXI.
 
-Identity is not key control.
-Identity is not a login.
-Identity is not an endpoint.
-Identity is not a single signature.
-Identity is not a public profile.
-Identity is not reputation.
-Identity is not delegation.
-Identity is not legal name by default.
-Identity continuity is not automatic persistence of a key.
+Identity is not key control. Identity is not a login. Identity is not an endpoint.
+Identity is not a single signature. Identity is not a public profile. Identity is not
+reputation. Identity is not delegation. Identity is not legal name by default. Identity
+continuity is not automatic persistence of a key.
 
-Identity continuity requires an anchor, role context, key purpose, rotation path, revocation path, recovery path, continuity evidence, compromise handling, privacy boundary, and explicit non-claims.
+Identity continuity requires an anchor, role context, key purpose, rotation path,
+revocation path, recovery path, continuity evidence, compromise handling, privacy
+boundary, and explicit non-claims.
 
-This is a Canon-level mechanism specification. It is not a runtime schema, API contract, legal identity system, personhood proof, authority model, reputation model, or implementation claim.
+This is a Canon-level mechanism specification. It is not a runtime schema, API contract,
+legal identity system, personhood proof, authority model, reputation model, or
+implementation claim.
 
 ## Problem
 
-HODLXXI has agent keys, operator keys, requester keys, Human Proof, signed receipts, discovery endpoints, attestations, reputation memory, obligations, delegation records, repair records, reciprocity patterns, and covenant participant keys.
+HODLXXI has agent keys, operator keys, requester keys, Human Proof, signed receipts,
+discovery endpoints, attestations, reputation memory, obligations, delegation records,
+repair records, reciprocity patterns, and covenant participant keys.
 
-These surfaces can preserve evidence, but they do not by themselves preserve identity continuity. Users may infer false claims:
+These surfaces can preserve evidence, but they do not by themselves preserve identity
+continuity. Users may infer false claims:
 
 - key signed -> identity known;
 - same key -> same meaningful actor forever;
@@ -35,7 +38,9 @@ These surfaces can preserve evidence, but they do not by themselves preserve ide
 - key rotation -> continuity preserved automatically;
 - key compromise notice -> harm resolved.
 
-The identity continuity record exists to prevent those false inference chains. It makes visible the difference between anchor control, role context, key purpose, continuity evidence, rotation, revocation, recovery, compromise, privacy, and non-claims over time.
+The identity continuity record exists to prevent those false inference chains. It makes
+visible the difference between anchor control, role context, key purpose, continuity
+evidence, rotation, revocation, recovery, compromise, privacy, and non-claims over time.
 
 ## Non-goals
 
@@ -55,7 +60,9 @@ This document does not:
 
 ## Required fields
 
-A minimum identity continuity record needs the following fields before HODLXXI can honestly represent identity continuity across time rather than reducing identity to key control, login, signature, endpoint ownership, or single-session proof.
+A minimum identity continuity record needs the following fields before HODLXXI can
+honestly represent identity continuity across time rather than reducing identity to key
+control, login, signature, endpoint ownership, or single-session proof.
 
 | Field | Description | Why it is required | What it does not prove |
 | --- | --- | --- | --- |
@@ -76,7 +83,9 @@ A minimum identity continuity record needs the following fields before HODLXXI c
 
 ## Optional fields
 
-Optional fields may add precision in contexts where identity continuity is high-stakes, privacy-sensitive, mediated, familial, agentic, inherited, contested, or jurisdiction-sensitive:
+Optional fields may add precision in contexts where identity continuity is high-stakes,
+privacy-sensitive, mediated, familial, agentic, inherited, contested, or
+jurisdiction-sensitive:
 
 - `disclosure_policy`
 - `verifier`
@@ -92,13 +101,22 @@ Optional fields may add precision in contexts where identity continuity is high-
 - `jurisdiction_note`
 - `version`
 
-These fields should remain optional because identity continuity varies by subject, role, risk, privacy boundary, culture, jurisdiction, relationship, and evidentiary need. A simple pseudonymous marketplace actor should not be forced into the same disclosure structure as a family covenant participant, mediated recovery process, legal organization, or long-running operator-agent relationship.
+These fields should remain optional because identity continuity varies by subject, role,
+risk, privacy boundary, culture, jurisdiction, relationship, and evidentiary need. A
+simple pseudonymous marketplace actor should not be forced into the same disclosure
+structure as a family covenant participant, mediated recovery process, legal
+organization, or long-running operator-agent relationship.
 
-Optional fields must not become hidden mandatory doxxing. They should add context where needed without implying that an omitted verifier, witness, guardian, jurisdiction note, or inheritance context makes a low-stakes or pseudonymous identity continuity record invalid.
+Optional fields must not become hidden mandatory doxxing. They should add context where
+needed without implying that an omitted verifier, witness, guardian, jurisdiction note,
+or inheritance context makes a low-stakes or pseudonymous identity continuity record
+invalid.
 
 ## State model
 
-The following lifecycle is a conceptual model, not a runtime state machine. It names states that may be useful when discussing identity continuity across anchors, keys, roles, rotations, revocations, recovery, compromise, privacy, and evidence.
+The following lifecycle is a conceptual model, not a runtime state machine. It names
+states that may be useful when discussing identity continuity across anchors, keys,
+roles, rotations, revocations, recovery, compromise, privacy, and evidence.
 
 | State | Meaning | Unsafe inference to avoid |
 | --- | --- | --- |
@@ -118,7 +136,8 @@ The following lifecycle is a conceptual model, not a runtime state machine. It n
 
 ## Runtime surfaces
 
-The identity continuity record may refer to existing or expected runtime surfaces, but none of these surfaces proves identity continuity by itself.
+The identity continuity record may refer to existing or expected runtime surfaces, but
+none of these surfaces proves identity continuity by itself.
 
 | Runtime surface | Possible role in identity continuity | What it does not prove alone |
 | --- | --- | --- |
@@ -156,11 +175,13 @@ A well-formed identity continuity record can prove or support only bounded claim
 - that privacy boundaries and linked records were visible;
 - that non-claims were visible.
 
-It still does not prove full identity, personhood, legal identity, moral character, authority, reputation, legitimacy, or trustworthiness by itself.
+It still does not prove full identity, personhood, legal identity, moral character,
+authority, reputation, legitimacy, or trustworthiness by itself.
 
 ## What it must not prove
 
-The existence or state of an identity continuity record must not be used for these overclaims:
+The existence or state of an identity continuity record must not be used for these
+overclaims:
 
 - identity record exists -> person is real;
 - key signed -> identity known;

@@ -4,7 +4,10 @@
 
 What does control of a cryptographic key prove about identity?
 
-This matters because HODLXXI uses public keys, signatures, requester proofs, operator surfaces, agent capabilities, covenant declarations, and inter-agent messages. These mechanisms can anchor continuity, but they can also be overread as proof of human identity, role, authority, consent, or legitimacy.
+This matters because HODLXXI uses public keys, signatures, requester proofs, operator
+surfaces, agent capabilities, covenant declarations, and inter-agent messages. These
+mechanisms can anchor continuity, but they can also be overread as proof of human
+identity, role, authority, consent, or legitimacy.
 
 ## 2. Scope
 
@@ -37,7 +40,8 @@ Related runtime notes:
 
 A public key can be stable across time.
 
-A signature can show that the holder of a corresponding private key authorized a message under a defined signing rule.
+A signature can show that the holder of a corresponding private key authorized a message
+under a defined signing rule.
 
 A requester proof can bind a key to a particular request.
 
@@ -45,7 +49,8 @@ An operator key can anchor continuity for a public runtime surface.
 
 An agent key can sign capabilities, receipts, or messages.
 
-But none of these alone proves the full identity of a human, the social role of an actor, the legitimacy of authority, or the meaning of consent.
+But none of these alone proves the full identity of a human, the social role of an
+actor, the legitimacy of authority, or the meaning of consent.
 
 ## 4. Claim
 
@@ -53,7 +58,8 @@ Key control is evidence of control over a cryptographic capability.
 
 It is not full identity.
 
-A public key can anchor continuity, but identity in CRT requires continuity of agency across time, interpretable behavior, memory, role context, and recognized constraints.
+A public key can anchor continuity, but identity in CRT requires continuity of agency
+across time, interpretable behavior, memory, role context, and recognized constraints.
 
 ## 5. Non-claims
 
@@ -83,7 +89,8 @@ Key control does not by itself prove:
 
 Identity is continuity through time.
 
-A key can help maintain continuity because it provides a stable cryptographic reference point. But the key is only one layer.
+A key can help maintain continuity because it provides a stable cryptographic reference
+point. But the key is only one layer.
 
 CRT identity requires at least three layers:
 
@@ -91,9 +98,12 @@ CRT identity requires at least three layers:
 2. behavioral memory;
 3. contextual interpretation.
 
-A system that has only the first layer can verify signatures but cannot safely infer social meaning.
+A system that has only the first layer can verify signatures but cannot safely infer
+social meaning.
 
-A long-running actor becomes more identifiable when key continuity is joined with remembered behavior, explicit roles, constrained authority, visible delegation, and meaningful counterparty relationships.
+A long-running actor becomes more identifiable when key continuity is joined with
+remembered behavior, explicit roles, constrained authority, visible delegation, and
+meaningful counterparty relationships.
 
 ## 7. Runtime evidence
 
@@ -122,27 +132,37 @@ Relevant HODLXXI runtime mechanisms include:
 
 ## 8. Counterarguments
 
-One objection is that a public key is the only identity needed in a cryptographic system.
+One objection is that a public key is the only identity needed in a cryptographic
+system.
 
-That may be true for narrow protocol validity, but CRT is not only about protocol validity. It studies trust, obligation, memory, reciprocity, forgiveness, and legitimacy.
+That may be true for narrow protocol validity, but CRT is not only about protocol
+validity. It studies trust, obligation, memory, reciprocity, forgiveness, and
+legitimacy.
 
 Another objection is that adding identity context weakens privacy.
 
-This is a serious risk. The answer is not to expose everything. The answer is to separate identity layers and support selective disclosure.
+This is a serious risk. The answer is not to expose everything. The answer is to
+separate identity layers and support selective disclosure.
 
 A third objection is that human identity is too messy to model.
 
-Some parts may remain social, but the system must still say what key control does not prove.
+Some parts may remain social, but the system must still say what key control does not
+prove.
 
 ## 9. Historical analogies
 
-A seal on a letter can identify a household or office, but it does not always prove who physically used it, whether the action was authorized, or whether the message was legitimate.
+A seal on a letter can identify a household or office, but it does not always prove who
+physically used it, whether the action was authorized, or whether the message was
+legitimate.
 
-A bank card can prove possession and authorization under narrow payment rules, but it does not prove the moral identity of the user.
+A bank card can prove possession and authorization under narrow payment rules, but it
+does not prove the moral identity of the user.
 
-A username can persist across time, but the account can be sold, shared, stolen, abandoned, or used performatively.
+A username can persist across time, but the account can be sold, shared, stolen,
+abandoned, or used performatively.
 
-A passport can identify a legal person, but it does not prove trustworthiness, authority in a specific context, or fulfilled obligation.
+A passport can identify a legal person, but it does not prove trustworthiness, authority
+in a specific context, or fulfilled obligation.
 
 ## 10. Failure modes
 
@@ -176,19 +196,26 @@ It should distinguish:
 
 The system should expose what each identity surface proves and what it does not prove.
 
-Future runtime work should avoid representing a public key as a complete identity object unless the claim is explicitly bounded.
+Future runtime work should avoid representing a public key as a complete identity object
+unless the claim is explicitly bounded.
 
 ## 12. Falsification
 
-This chapter would be weakened if production evidence showed that key control alone reliably predicts continuity of behavior, authority, consent, and trustworthy action across long horizons.
+This chapter would be weakened if production evidence showed that key control alone
+reliably predicts continuity of behavior, authority, consent, and trustworthy action
+across long horizons.
 
-It would be strengthened if users overread public keys as people, signatures as consent, capability documents as authority, or requester keys as complete counterparties.
+It would be strengthened if users overread public keys as people, signatures as consent,
+capability documents as authority, or requester keys as complete counterparties.
 
 A concrete runtime test:
 
-Compare user decisions when shown only a public key and signature versus the same key plus role, proof level, event history, authority scope, consent boundary, and known non-claims.
+Compare user decisions when shown only a public key and signature versus the same key
+plus role, proof level, event history, authority scope, consent boundary, and known
+non-claims.
 
-If the second view produces better trust decisions, key control alone is insufficient as an identity primitive.
+If the second view produces better trust decisions, key control alone is insufficient as
+an identity primitive.
 
 ## 13. Open questions
 

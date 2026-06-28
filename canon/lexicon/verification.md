@@ -4,7 +4,8 @@
 
 Verification is the act of checking evidence against a defined rule.
 
-Verification answers whether a specific claim passes a specific test. It does not decide every social, moral, or institutional meaning of the claim.
+Verification answers whether a specific claim passes a specific test. It does not decide
+every social, moral, or institutional meaning of the claim.
 
 ## Operational meaning
 
@@ -52,7 +53,8 @@ In HODLXXI, verification may appear through:
 
 Verification endpoints should expose claim boundaries.
 
-A verifier should not silently convert narrow technical validity into broad social legitimacy.
+A verifier should not silently convert narrow technical validity into broad social
+legitimacy.
 
 ## Open questions
 

@@ -2,19 +2,23 @@
 
 ## Purpose
 
-This volume studies the human actor that HODLXXI must actually serve, constrain, and protect.
+This volume studies the human actor that HODLXXI must actually serve, constrain, and
+protect.
 
 A technically correct system that misunderstands human nature will fail.
 
 ## Core question
 
-What kind of actor is a human being when promises, memory, shame, loyalty, money, status, resentment, family, and meaning are involved?
+What kind of actor is a human being when promises, memory, shame, loyalty, money,
+status, resentment, family, and meaning are involved?
 
 ## Scope
 
-This volume studies bounded, emotional, narrative-driven, status-sensitive, tribal, loyal, resentful, grateful, sacrificial, and deceptive human behavior.
+This volume studies bounded, emotional, narrative-driven, status-sensitive, tribal,
+loyal, resentful, grateful, sacrificial, and deceptive human behavior.
 
-It is not a psychology textbook. It exists to prevent HODLXXI from building mechanisms that are technically valid but socially naive.
+It is not a psychology textbook. It exists to prevent HODLXXI from building mechanisms
+that are technically valid but socially naive.
 
 ## What this volume claims
 
@@ -45,7 +49,8 @@ It is not a psychology textbook. It exists to prevent HODLXXI from building mech
 - [Forgiveness](../lexicon/forgiveness.md)
 - [Legitimacy](../lexicon/legitimacy.md)
 
-Future terms likely needed here include status, shame, loyalty, resentment, gratitude, envy, sacrifice, meaning, coercion, and symbolic laundering.
+Future terms likely needed here include status, shame, loyalty, resentment, gratitude,
+envy, sacrifice, meaning, coercion, and symbolic laundering.
 
 ## Runtime relevance
 
@@ -60,7 +65,8 @@ This volume constrains interpretation of HODLXXI mechanisms such as:
 - public trust pages;
 - future dispute and repair flows.
 
-The runtime can show evidence, but humans may use evidence for performance, signaling, manipulation, or laundering.
+The runtime can show evidence, but humans may use evidence for performance, signaling,
+manipulation, or laundering.
 
 ## Failure modes
 
@@ -85,9 +91,11 @@ The runtime can show evidence, but humans may use evidence for performance, sign
 
 ## Falsification focus
 
-This volume fails wherever its model of the human actor causes HODLXXI to reward symbolic performance instead of durable commitment.
+This volume fails wherever its model of the human actor causes HODLXXI to reward
+symbolic performance instead of durable commitment.
 
-It also fails wherever it treats human meaning as a decorative layer rather than as part of the system's actual behavior.
+It also fails wherever it treats human meaning as a decorative layer rather than as part
+of the system's actual behavior.
 
 ## Open questions
 

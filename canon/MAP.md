@@ -2,9 +2,11 @@
 
 ## Purpose
 
-This map connects Canon language to chapters, runtime surfaces, missing mechanisms, and falsification paths.
+This map connects Canon language to chapters, runtime surfaces, missing mechanisms, and
+falsification paths.
 
-Its purpose is to prevent HODLXXI from becoming a collection of essays or isolated documents.
+Its purpose is to prevent HODLXXI from becoming a collection of essays or isolated
+documents.
 
 Every major claim should eventually be traceable through this chain:
 
@@ -96,7 +98,6 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - remedy path;
    - repair state;
    - closure state.
-
 2. [`delegation-record-v0`](mechanisms/delegation-record-v0.md)
    - delegator;
    - delegate;
@@ -106,7 +107,6 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - evidence of consent;
    - revocation path;
    - accountability path.
-
 3. [`repair-lifecycle-v0`](mechanisms/repair-lifecycle-v0.md)
    - disputed event;
    - acknowledgement;
@@ -116,7 +116,6 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - post-repair behavior;
    - forgiveness annotation;
    - non-erasure rule.
-
 4. [`reciprocity-pattern-v0`](mechanisms/reciprocity-pattern-v0.md)
    - counterparties;
    - repeated events;
@@ -126,7 +125,6 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - repair;
    - re-entry;
    - non-claims.
-
 5. [`identity-continuity-v0`](mechanisms/identity-continuity-v0.md)
    - key purpose;
    - rotation;
@@ -134,7 +132,6 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - compromise notice;
    - operator-agent relation;
    - continuity evidence.
-
 6. [`contextual-reputation-v0`](mechanisms/contextual-reputation-v0.md)
    - reputation for what;
    - according to whom;
@@ -145,25 +142,21 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
 
 ## Falsification backlog
 
-CRT should become weaker if evidence shows that its distinctions do not improve decisions.
+CRT should become weaker if evidence shows that its distinctions do not improve
+decisions.
 
 Initial falsification tests:
 
 1. Receipt-only vs receipt-plus-obligation context
    - If users make equally good trust decisions from receipt-only views, the obligation boundary may be too strong.
-
 2. Key-only vs key-plus-identity-context
    - If key-only views reliably support correct identity decisions, the identity boundary may be too strong.
-
 3. Score-only vs contextual reputation
    - If a simple global score outperforms contextual reputation across cases, the reputation boundary may be too strong.
-
 4. Capability-only vs scoped agent authority
    - If capability-only agent surfaces produce fewer disputes and better delegation decisions, the agent authority boundary may be too strong.
-
 5. Lockup-only vs lockup-plus-meaning context
    - If locked value alone reliably predicts cooperation and preserved meaning, the commitment boundary may be too strong.
-
 6. Transaction-count vs reciprocal-pattern evidence
    - If transaction count alone predicts durable cooperation better than relationship pattern evidence, the reciprocity boundary may be too strong.
 
@@ -186,6 +179,7 @@ Recommended order:
 
 The greatest danger is not that HODLXXI fails to prove events.
 
-The greater danger is that it proves events, payments, signatures, lockups, and receipts while users infer meanings the system has not preserved.
+The greater danger is that it proves events, payments, signatures, lockups, and receipts
+while users infer meanings the system has not preserved.
 
 This map exists to keep those inferences visible, bounded, and testable.

@@ -2,7 +2,9 @@
 
 ## What a receipt is
 
-A receipt is signed runtime evidence that a particular agent key recorded a state transition involving a job, request hash, payment hash, result hash, timestamp, and event linkage.
+A receipt is signed runtime evidence that a particular agent key recorded a state
+transition involving a job, request hash, payment hash, result hash, timestamp, and
+event linkage.
 
 ## What a receipt can prove
 
@@ -26,7 +28,8 @@ A receipt is signed runtime evidence that a particular agent key recorded a stat
 
 ## Event proof vs obligation proof
 
-A receipt is an event proof. It is not an obligation proof unless the obligation, counterparty, acceptance criteria, breach condition, and remedy are explicitly modeled.
+A receipt is an event proof. It is not an obligation proof unless the obligation,
+counterparty, acceptance criteria, breach condition, and remedy are explicitly modeled.
 
 ## Implications for HODLXXI
 

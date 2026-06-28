@@ -4,7 +4,10 @@
 
 What does a HODLXXI receipt prove, and what does it not prove?
 
-This matters because HODLXXI uses paid jobs, signed receipts, verification, attestations, and local event memory. These mechanisms can make events visible, but they can also be overread as proof of human meaning, satisfaction, authority, or fulfilled obligation.
+This matters because HODLXXI uses paid jobs, signed receipts, verification,
+attestations, and local event memory. These mechanisms can make events visible, but they
+can also be overread as proof of human meaning, satisfaction, authority, or fulfilled
+obligation.
 
 ## 2. Scope
 
@@ -32,9 +35,12 @@ Related runtime notes:
 
 A valid receipt can show that a runtime event was recorded and signed.
 
-It may bind a job type, request hash, payment hash, result hash, timestamp, agent key, and event linkage.
+It may bind a job type, request hash, payment hash, result hash, timestamp, agent key,
+and event linkage.
 
-But a person may see a receipt and assume more than the receipt proves. They may assume the requester was satisfied, the result was good, no dispute exists, or a deeper obligation was fulfilled.
+But a person may see a receipt and assume more than the receipt proves. They may assume
+the requester was satisfied, the result was good, no dispute exists, or a deeper
+obligation was fulfilled.
 
 Those assumptions can be false even when the receipt is valid.
 
@@ -42,13 +48,16 @@ Those assumptions can be false even when the receipt is valid.
 
 A receipt is an event proof.
 
-It is not an obligation proof unless the obligation, counterparty, acceptance criteria, breach condition, and remedy are explicitly modeled.
+It is not an obligation proof unless the obligation, counterparty, acceptance criteria,
+breach condition, and remedy are explicitly modeled.
 
-The purpose of a receipt is to preserve memory of a recorded event. Its purpose is not to settle every social meaning attached to that event.
+The purpose of a receipt is to preserve memory of a recorded event. Its purpose is not
+to settle every social meaning attached to that event.
 
 ## 5. Non-claims
 
-This chapter does not claim that receipts are useless or that cryptographic proof is unimportant.
+This chapter does not claim that receipts are useless or that cryptographic proof is
+unimportant.
 
 It claims that receipts must be interpreted within their evidentiary boundary.
 
@@ -68,11 +77,14 @@ A receipt does not by itself prove:
 
 Trust systems fail when evidence is compressed into meaning too quickly.
 
-A receipt is a memory artifact. It preserves that something happened in a bounded runtime context. This is valuable because long-running cooperation requires remembered behavior.
+A receipt is a memory artifact. It preserves that something happened in a bounded
+runtime context. This is valuable because long-running cooperation requires remembered
+behavior.
 
 But memory is not judgment.
 
-A receipt can support later interpretation, reputation, audit, dispute, or repair. It should not replace those processes.
+A receipt can support later interpretation, reputation, audit, dispute, or repair. It
+should not replace those processes.
 
 The stronger theory is:
 
@@ -111,23 +123,29 @@ Relevant HODLXXI runtime mechanisms include:
 
 One objection is that a receipt is enough because the system only needs objective facts.
 
-But objective facts are necessary, not sufficient. Human cooperation often turns on quality, interpretation, reliance, context, and repair.
+But objective facts are necessary, not sufficient. Human cooperation often turns on
+quality, interpretation, reliance, context, and repair.
 
 Another objection is that payment proves seriousness.
 
-Payment can indicate cost, but cost can also become theater or a cheap signal for wealthy actors.
+Payment can indicate cost, but cost can also become theater or a cheap signal for
+wealthy actors.
 
 A third objection is that if the receipt verifies, the job is done.
 
-The runtime may be done with its narrow task while a counterparty still disputes meaning, sufficiency, quality, or obligation fulfillment.
+The runtime may be done with its narrow task while a counterparty still disputes
+meaning, sufficiency, quality, or obligation fulfillment.
 
 ## 9. Historical analogies
 
-A paper receipt proves that a transaction was recorded. It does not prove the customer was satisfied or the product was good.
+A paper receipt proves that a transaction was recorded. It does not prove the customer
+was satisfied or the product was good.
 
-A merchant ledger preserves memory. It helps resolve disputes, but the ledger itself does not eliminate judgment.
+A merchant ledger preserves memory. It helps resolve disputes, but the ledger itself
+does not eliminate judgment.
 
-A Bitcoin transaction proves movement under consensus rules. It does not prove why the movement happened or whether an off-chain promise was honored.
+A Bitcoin transaction proves movement under consensus rules. It does not prove why the
+movement happened or whether an off-chain promise was honored.
 
 ## 10. Failure modes
 
@@ -155,21 +173,29 @@ Future receipt versions may need:
 - repair or restitution linkage;
 - external anchoring reference.
 
-It should be impossible for a valid receipt to be represented as proof of human meaning unless that meaning is explicitly modeled, bounded, and falsifiable.
+It should be impossible for a valid receipt to be represented as proof of human meaning
+unless that meaning is explicitly modeled, bounded, and falsifiable.
 
-HODLXXI should not build automatic obligation enforcement, global trust scoring, or reputation penalties directly from receipt count.
+HODLXXI should not build automatic obligation enforcement, global trust scoring, or
+reputation penalties directly from receipt count.
 
 ## 12. Falsification
 
-This chapter would be weakened if production evidence showed that valid receipts reliably predict obligation fulfillment, requester satisfaction, output quality, and future trustworthy behavior without additional context.
+This chapter would be weakened if production evidence showed that valid receipts
+reliably predict obligation fulfillment, requester satisfaction, output quality, and
+future trustworthy behavior without additional context.
 
-It would be strengthened if users overread receipts, if receipt count becomes reputation theater, or if paid jobs produce valid receipts but disputed meaning.
+It would be strengthened if users overread receipts, if receipt count becomes reputation
+theater, or if paid jobs produce valid receipts but disputed meaning.
 
 A concrete runtime test:
 
-Compare user trust decisions when shown only receipt verification versus receipt verification plus non-claims, context, requester identity, acceptance criteria, and dispute state.
+Compare user trust decisions when shown only receipt verification versus receipt
+verification plus non-claims, context, requester identity, acceptance criteria, and
+dispute state.
 
-If the second group makes better trust decisions, then receipt verification alone is insufficient as a trust primitive.
+If the second group makes better trust decisions, then receipt verification alone is
+insufficient as a trust primitive.
 
 ## 13. Open questions
 

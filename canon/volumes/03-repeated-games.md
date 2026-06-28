@@ -4,15 +4,19 @@
 
 This volume studies cooperation across repeated interaction.
 
-It asks how reciprocal behavior can emerge, stabilize, degrade, or collapse over time when actors remember each other and expect future encounters.
+It asks how reciprocal behavior can emerge, stabilize, degrade, or collapse over time
+when actors remember each other and expect future encounters.
 
 ## Core question
 
-Can cryptographically remembered commitments improve long-term cooperation compared with simpler social norms, or do they create new failure modes?
+Can cryptographically remembered commitments improve long-term cooperation compared with
+simpler social norms, or do they create new failure modes?
 
 ## Scope
 
-This volume covers repeated games, reciprocal strategy, delayed reciprocity, asymmetric reciprocity, trust networks, coalition formation, defection, punishment, forgiveness, and long-horizon fitness.
+This volume covers repeated games, reciprocal strategy, delayed reciprocity, asymmetric
+reciprocity, trust networks, coalition formation, defection, punishment, forgiveness,
+and long-horizon fitness.
 
 It does not assume that human cooperation is reducible to a payoff matrix.
 
@@ -44,7 +48,8 @@ It does not assume that human cooperation is reducible to a payoff matrix.
 - [Reputation](../lexicon/reputation.md)
 - [Forgiveness](../lexicon/forgiveness.md)
 
-Future terms likely needed here include defection, cooperation, punishment, repair, strategy, coalition, sybil, cartel, and retaliation.
+Future terms likely needed here include defection, cooperation, punishment, repair,
+strategy, coalition, sybil, cartel, and retaliation.
 
 ## Runtime relevance
 
@@ -60,7 +65,8 @@ This volume is relevant to runtime mechanisms that expose behavior across time:
 - future dispute and repair flows;
 - future counterparty-specific reputation.
 
-The current runtime provides evidence of events, but it does not yet model repeated counterparty relationships in full.
+The current runtime provides evidence of events, but it does not yet model repeated
+counterparty relationships in full.
 
 ## Failure modes
 
@@ -86,9 +92,12 @@ The current runtime provides evidence of events, but it does not yet model repea
 
 ## Falsification focus
 
-This volume fails wherever cryptographically remembered commitments produce brittle escalation, cartel behavior, performative cooperation, or lower long-term fitness than simpler social norms.
+This volume fails wherever cryptographically remembered commitments produce brittle
+escalation, cartel behavior, performative cooperation, or lower long-term fitness than
+simpler social norms.
 
-It also fails if HODLXXI increases visible accountability while decreasing actual willingness to cooperate.
+It also fails if HODLXXI increases visible accountability while decreasing actual
+willingness to cooperate.
 
 ## Open questions
 

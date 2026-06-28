@@ -1,6 +1,9 @@
 # Identity Layers
 
-Identity in CRT means continuity of agency across time. A public key can anchor continuity, but does not by itself prove human identity, authority, role, delegation, or legitimacy. The current runtime has multiple identity layers that must not be collapsed into one.
+Identity in CRT means continuity of agency across time. A public key can anchor
+continuity, but does not by itself prove human identity, authority, role, delegation, or
+legitimacy. The current runtime has multiple identity layers that must not be collapsed
+into one.
 
 | Identity layer | Runtime evidence | What it proves | What it does not prove | Canon implication |
 | --- | --- | --- | --- | --- |

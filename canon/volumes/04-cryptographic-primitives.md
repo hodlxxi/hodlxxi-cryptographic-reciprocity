@@ -2,19 +2,24 @@
 
 ## Purpose
 
-This volume studies cryptographic tools as instruments for memory, accountability, public verification, timekeeping, and durable commitment.
+This volume studies cryptographic tools as instruments for memory, accountability,
+public verification, timekeeping, and durable commitment.
 
 It does not treat trust as authentication.
 
 ## Core question
 
-What can cryptographic evidence make visible, and what human meaning remains unproven even when the cryptographic evidence is valid?
+What can cryptographic evidence make visible, and what human meaning remains unproven
+even when the cryptographic evidence is valid?
 
 ## Scope
 
-This volume covers digital signatures, hashes, public keys, Bitcoin, Lightning, receipts, attestations, proofs, covenants, time locks, public verification, and event chains.
+This volume covers digital signatures, hashes, public keys, Bitcoin, Lightning,
+receipts, attestations, proofs, covenants, time locks, public verification, and event
+chains.
 
-It studies these tools as behavioral constraints and evidence surfaces, not as substitutes for human judgment.
+It studies these tools as behavioral constraints and evidence surfaces, not as
+substitutes for human judgment.
 
 ## What this volume claims
 
@@ -45,7 +50,8 @@ It studies these tools as behavioral constraints and evidence surfaces, not as s
 - [Reputation](../lexicon/reputation.md)
 - [Legitimacy](../lexicon/legitimacy.md)
 
-Future terms likely needed here include proof, evidence, verification, receipt, attestation, signature, anchor, covenant, time lock, and event proof.
+Future terms likely needed here include proof, evidence, verification, receipt,
+attestation, signature, anchor, covenant, time lock, and event proof.
 
 ## Runtime relevance
 
@@ -89,9 +95,11 @@ The runtime linkage layer records what these mechanisms do and do not prove.
 
 ## Falsification focus
 
-This volume fails wherever cryptographic proof creates ritual without real constraint, identity without continuity, or verification without trustworthiness.
+This volume fails wherever cryptographic proof creates ritual without real constraint,
+identity without continuity, or verification without trustworthiness.
 
-It also fails wherever HODLXXI users reliably overread valid proofs as social facts that the system did not actually model.
+It also fails wherever HODLXXI users reliably overread valid proofs as social facts that
+the system did not actually model.
 
 ## Open questions
 

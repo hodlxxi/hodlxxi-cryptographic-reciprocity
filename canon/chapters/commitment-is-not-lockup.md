@@ -4,7 +4,10 @@
 
 What does a Bitcoin lockup prove, and what does it fail to preserve?
 
-This matters because HODLXXI uses Bitcoin time, covenants, public keys, receipts, verification, and long-horizon constraints. A lockup can make commitment visible and costly, but it can also become ritual, status theater, or financial performance without human meaning.
+This matters because HODLXXI uses Bitcoin time, covenants, public keys, receipts,
+verification, and long-horizon constraints. A lockup can make commitment visible and
+costly, but it can also become ritual, status theater, or financial performance without
+human meaning.
 
 ## 2. Scope
 
@@ -38,15 +41,19 @@ Related chapters:
 
 A Bitcoin lockup can constrain spending across time.
 
-A covenant or time-locked script can make a future condition visible, verifiable, and difficult to fake.
+A covenant or time-locked script can make a future condition visible, verifiable, and
+difficult to fake.
 
 A long lockup can impose opportunity cost.
 
 A public lockup can create a durable signal.
 
-But the same lockup does not prove the actor's inner intention, the counterparty's understanding, the social meaning of the act, or whether the act will remain legitimate over time.
+But the same lockup does not prove the actor's inner intention, the counterparty's
+understanding, the social meaning of the act, or whether the act will remain legitimate
+over time.
 
-A person may lock sats and still use the system as performance, manipulation, status theater, empty ritual, or reputation laundering.
+A person may lock sats and still use the system as performance, manipulation, status
+theater, empty ritual, or reputation laundering.
 
 ## 4. Claim
 
@@ -54,7 +61,9 @@ A lockup is a constraint proof.
 
 It is not a complete commitment proof.
 
-A lockup can support commitment by making cost, time, and constraint visible. But commitment in CRT also requires meaning, counterparty context, remembered promise, obligation boundary, and interpretable behavior over time.
+A lockup can support commitment by making cost, time, and constraint visible. But
+commitment in CRT also requires meaning, counterparty context, remembered promise,
+obligation boundary, and interpretable behavior over time.
 
 ## 5. Non-claims
 
@@ -85,13 +94,18 @@ A lockup does not by itself prove:
 
 Commitment becomes stronger when intention is constrained by visible cost.
 
-Bitcoin lockups are powerful because they make some future behavior harder to fake. They transform words into constraints.
+Bitcoin lockups are powerful because they make some future behavior harder to fake. They
+transform words into constraints.
 
 But constraints are not meaning.
 
-A cryptographic system can preserve that sats were locked while losing why they were locked, for whom, under what expectation, with what obligation, and with what path for dispute or repair.
+A cryptographic system can preserve that sats were locked while losing why they were
+locked, for whom, under what expectation, with what obligation, and with what path for
+dispute or repair.
 
-The strongest commitment form in HODLXXI is not merely locked value. It is locked value plus remembered relationship, explicit counterparty context, durable identity, interpretable promise, and visible consequences over time.
+The strongest commitment form in HODLXXI is not merely locked value. It is locked value
+plus remembered relationship, explicit counterparty context, durable identity,
+interpretable promise, and visible consequences over time.
 
 ## 7. Runtime evidence
 
@@ -120,15 +134,19 @@ Relevant HODLXXI mechanisms include:
 
 One objection is that a lockup is commitment because it imposes real cost.
 
-Cost matters. But cost alone can be used for theater. Wealthy actors can buy signals. Desperate actors can overcommit. Manipulators can lock value to create false confidence.
+Cost matters. But cost alone can be used for theater. Wealthy actors can buy signals.
+Desperate actors can overcommit. Manipulators can lock value to create false confidence.
 
 Another objection is that Bitcoin removes ambiguity.
 
-Bitcoin removes some ambiguity about valid state transitions. It does not remove ambiguity about human intention, obligation, gratitude, betrayal, forgiveness, or legitimacy.
+Bitcoin removes some ambiguity about valid state transitions. It does not remove
+ambiguity about human intention, obligation, gratitude, betrayal, forgiveness, or
+legitimacy.
 
 A third objection is that social meaning should remain outside the protocol.
 
-Some meaning should remain social. But the system must still prevent users from mistaking cryptographic constraint for complete commitment.
+Some meaning should remain social. But the system must still prevent users from
+mistaking cryptographic constraint for complete commitment.
 
 ## 9. Historical analogies
 
@@ -140,7 +158,8 @@ A legal bond can create enforceable cost, but it does not guarantee honor.
 
 A religious vow can preserve public form while losing inner meaning.
 
-A Bitcoin transaction proves consensus-valid movement, not the full story behind the movement.
+A Bitcoin transaction proves consensus-valid movement, not the full story behind the
+movement.
 
 ## 10. Failure modes
 
@@ -172,19 +191,28 @@ Future HODLXXI surfaces should distinguish:
 - repair path;
 - non-claims.
 
-The system should make it difficult to represent locked sats as proof of love, loyalty, trustworthiness, or fulfilled obligation unless those meanings are separately modeled and bounded.
+The system should make it difficult to represent locked sats as proof of love, loyalty,
+trustworthiness, or fulfilled obligation unless those meanings are separately modeled
+and bounded.
 
 ## 12. Falsification
 
-This chapter would be weakened if production evidence showed that lockups alone reliably create durable cooperation, accurate trust decisions, low dispute rates, and preserved human meaning without additional context.
+This chapter would be weakened if production evidence showed that lockups alone reliably
+create durable cooperation, accurate trust decisions, low dispute rates, and preserved
+human meaning without additional context.
 
-It would be strengthened if users overread lockups as trust, if high-value locks become status theater, if locked value launders reputation, or if counterparties misunderstand what a covenant proves.
+It would be strengthened if users overread lockups as trust, if high-value locks become
+status theater, if locked value launders reputation, or if counterparties misunderstand
+what a covenant proves.
 
 A concrete runtime test:
 
-Compare user decisions when shown only locked value and script data versus locked value plus counterparty context, promise, obligation boundary, dispute state, repair path, and non-claims.
+Compare user decisions when shown only locked value and script data versus locked value
+plus counterparty context, promise, obligation boundary, dispute state, repair path, and
+non-claims.
 
-If the second view produces better trust decisions, lockup alone is insufficient as a commitment primitive.
+If the second view produces better trust decisions, lockup alone is insufficient as a
+commitment primitive.
 
 ## 13. Open questions
 

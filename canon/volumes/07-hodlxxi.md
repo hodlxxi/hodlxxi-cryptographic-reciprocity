@@ -8,11 +8,14 @@ Theory comes first. Engineering follows as experiment.
 
 ## Core question
 
-Can HODLXXI become experimental infrastructure for testing CRT without confusing runtime evidence with human meaning, obligation fulfillment, or legitimacy?
+Can HODLXXI become experimental infrastructure for testing CRT without confusing runtime
+evidence with human meaning, obligation fulfillment, or legitimacy?
 
 ## Scope
 
-This volume studies the actual HODLXXI runtime, Human Proof, paid jobs, receipts, attestations, covenant surfaces, agent runtime, marketplace listing, proof-of-funds surfaces, trust reports, and future delegation or repair mechanisms.
+This volume studies the actual HODLXXI runtime, Human Proof, paid jobs, receipts,
+attestations, covenant surfaces, agent runtime, marketplace listing, proof-of-funds
+surfaces, trust reports, and future delegation or repair mechanisms.
 
 It is the bridge between theory, runtime, observation, and revision.
 
@@ -48,7 +51,8 @@ It is the bridge between theory, runtime, observation, and revision.
 - [Forgiveness](../lexicon/forgiveness.md)
 - [Legitimacy](../lexicon/legitimacy.md)
 
-Future terms likely needed here include runtime, requester, counterparty, receipt, attestation, proof, evidence, delegation, dispute, repair, restitution, and anchoring.
+Future terms likely needed here include runtime, requester, counterparty, receipt,
+attestation, proof, evidence, delegation, dispute, repair, restitution, and anchoring.
 
 ## Runtime relevance
 
@@ -108,9 +112,11 @@ Every runtime mechanism should eventually be mapped to:
 
 ## Falsification focus
 
-This volume fails wherever the system proves that an action occurred but fails to preserve the meaning of the commitment behind that action.
+This volume fails wherever the system proves that an action occurred but fails to
+preserve the meaning of the commitment behind that action.
 
-It also fails wherever HODLXXI mechanisms make users more confident without making behavior more trustworthy, legible, repairable, or accountable.
+It also fails wherever HODLXXI mechanisms make users more confident without making
+behavior more trustworthy, legible, repairable, or accountable.
 
 ## Open questions
 

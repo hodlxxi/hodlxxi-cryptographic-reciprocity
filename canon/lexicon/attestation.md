@@ -2,9 +2,11 @@
 
 ## Definition
 
-An attestation is a signed or otherwise attributable statement about an event, actor, claim, or state.
+An attestation is a signed or otherwise attributable statement about an event, actor,
+claim, or state.
 
-In CRT, an attestation is evidence. It is not automatically truth, legitimacy, or final judgment.
+In CRT, an attestation is evidence. It is not automatically truth, legitimacy, or final
+judgment.
 
 ## Operational meaning
 
@@ -31,9 +33,11 @@ An attestation is not repair.
 
 ## Observable behavior
 
-In HODLXXI, attestations may appear as public records derived from jobs, receipts, event entries, or trust surfaces.
+In HODLXXI, attestations may appear as public records derived from jobs, receipts, event
+entries, or trust surfaces.
 
-They can help external observers see remembered behavior without replaying all raw history.
+They can help external observers see remembered behavior without replaying all raw
+history.
 
 ## Failure modes
 
@@ -45,9 +49,11 @@ They can help external observers see remembered behavior without replaying all r
 
 ## Implications for HODLXXI
 
-HODLXXI should eventually distinguish attestations from counter-attestations, disputes, corrections, revocations, and repairs.
+HODLXXI should eventually distinguish attestations from counter-attestations, disputes,
+corrections, revocations, and repairs.
 
-An attestation surface should not imply final judgment unless the judgment process is explicit.
+An attestation surface should not imply final judgment unless the judgment process is
+explicit.
 
 ## Open questions
 

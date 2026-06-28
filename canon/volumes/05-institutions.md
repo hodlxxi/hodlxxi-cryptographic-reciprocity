@@ -4,17 +4,22 @@
 
 This volume studies how repeated commitments become durable social forms.
 
-Institutions are treated as accumulated behavioral constraints, not merely organizations.
+Institutions are treated as accumulated behavioral constraints, not merely
+organizations.
 
 ## Core question
 
-Can cryptographically remembered commitments help institutions emerge without becoming cartelized, coercive, centralized, or empty ritual?
+Can cryptographically remembered commitments help institutions emerge without becoming
+cartelized, coercive, centralized, or empty ritual?
 
 ## Scope
 
-This volume studies family, clans, churches, guilds, markets, common law, merchant networks, DAOs, reputation networks, constitutions, and protocol communities as systems of memory, obligation, legitimacy, sanction, and repair.
+This volume studies family, clans, churches, guilds, markets, common law, merchant
+networks, DAOs, reputation networks, constitutions, and protocol communities as systems
+of memory, obligation, legitimacy, sanction, and repair.
 
-It asks what should be encoded, what should remain social, and what should be impossible for the system to claim.
+It asks what should be encoded, what should remain social, and what should be impossible
+for the system to claim.
 
 ## What this volume claims
 
@@ -45,11 +50,13 @@ It asks what should be encoded, what should remain social, and what should be im
 - [Trust](../lexicon/trust.md)
 - [Reciprocity](../lexicon/reciprocity.md)
 
-Future terms likely needed here include institution, sanction, constitution, cartel, capture, dependency, dispute, appeal, remedy, and common law.
+Future terms likely needed here include institution, sanction, constitution, cartel,
+capture, dependency, dispute, appeal, remedy, and common law.
 
 ## Runtime relevance
 
-This volume is relevant to runtime mechanisms that may later harden into institutional behavior:
+This volume is relevant to runtime mechanisms that may later harden into institutional
+behavior:
 
 - public reputation telemetry;
 - trust reports;
@@ -89,9 +96,11 @@ Current runtime evidence should not be treated as a completed institution.
 
 ## Falsification focus
 
-This volume fails wherever HODLXXI produces dependence, cartelization, empty ceremony, or centralized legitimacy while claiming to produce reciprocal commitment.
+This volume fails wherever HODLXXI produces dependence, cartelization, empty ceremony,
+or centralized legitimacy while claiming to produce reciprocal commitment.
 
-It also fails wherever institutional memory prevents repair or turns temporary failure into permanent exclusion.
+It also fails wherever institutional memory prevents repair or turns temporary failure
+into permanent exclusion.
 
 ## Open questions
 

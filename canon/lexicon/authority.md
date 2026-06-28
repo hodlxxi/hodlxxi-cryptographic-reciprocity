@@ -2,9 +2,11 @@
 
 ## Definition
 
-Authority is the recognized capacity to bind, represent, judge, or constrain behavior within a defined scope.
+Authority is the recognized capacity to bind, represent, judge, or constrain behavior
+within a defined scope.
 
-In CRT, authority is not the same as power, capability, signature validity, or possession of a key.
+In CRT, authority is not the same as power, capability, signature validity, or
+possession of a key.
 
 ## Operational meaning
 

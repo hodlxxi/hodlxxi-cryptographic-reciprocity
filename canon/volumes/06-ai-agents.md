@@ -4,17 +4,24 @@
 
 This volume studies AI agents as possible long-running actors.
 
-The question is not whether an agent is powerful. The question is whether an agent can become legible, accountable, constrained, continuous, and trustworthy within bounded authority.
+The question is not whether an agent is powerful. The question is whether an agent can
+become legible, accountable, constrained, continuous, and trustworthy within bounded
+authority.
 
 ## Core question
 
-Can an AI agent participate in systems of memory, promise, obligation, reputation, forgiveness, and legitimacy without becoming vague, unbounded, or socially manipulative authority?
+Can an AI agent participate in systems of memory, promise, obligation, reputation,
+forgiveness, and legitimacy without becoming vague, unbounded, or socially manipulative
+authority?
 
 ## Scope
 
-This volume studies agent identity, delegated authority, memory persistence, policy constraints, public accountability, reputation, human-agent coexistence, bounded autonomy, revocation, repair, and failure modes.
+This volume studies agent identity, delegated authority, memory persistence, policy
+constraints, public accountability, reputation, human-agent coexistence, bounded
+autonomy, revocation, repair, and failure modes.
 
-It treats AI agents as actors only where continuity, authority, responsibility, and constraint can be made explicit.
+It treats AI agents as actors only where continuity, authority, responsibility, and
+constraint can be made explicit.
 
 ## What this volume claims
 
@@ -47,7 +54,8 @@ It treats AI agents as actors only where continuity, authority, responsibility, 
 - [Legitimacy](../lexicon/legitimacy.md)
 - [Trust](../lexicon/trust.md)
 
-Future terms likely needed here include agent, delegation, authority, scope, revocation, policy, capability, autonomy, operator, and accountability.
+Future terms likely needed here include agent, delegation, authority, scope, revocation,
+policy, capability, autonomy, operator, and accountability.
 
 ## Runtime relevance
 
@@ -64,7 +72,8 @@ This volume maps to current and future HODLXXI agent surfaces:
 - future delegation discovery;
 - future authority and policy schemas.
 
-Current runtime evidence shows legible surfaces and signed statements. It does not yet implement full delegated legitimacy.
+Current runtime evidence shows legible surfaces and signed statements. It does not yet
+implement full delegated legitimacy.
 
 ## Failure modes
 
@@ -91,9 +100,11 @@ Current runtime evidence shows legible surfaces and signed statements. It does n
 
 ## Falsification focus
 
-This volume fails wherever agent reputation becomes simulation, delegation becomes vague authority, memory becomes manipulation, or autonomy outruns legitimacy.
+This volume fails wherever agent reputation becomes simulation, delegation becomes vague
+authority, memory becomes manipulation, or autonomy outruns legitimacy.
 
-It also fails wherever HODLXXI users treat an agent as trustworthy because it is fluent, useful, or profitable rather than because it is constrained and accountable.
+It also fails wherever HODLXXI users treat an agent as trustworthy because it is fluent,
+useful, or profitable rather than because it is constrained and accountable.
 
 ## Open questions
 

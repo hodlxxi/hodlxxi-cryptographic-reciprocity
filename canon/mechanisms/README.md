@@ -4,7 +4,9 @@
 
 This folder contains Canon-level mechanism specifications.
 
-Mechanism specs are not runtime implementations. They define conceptual structures required before HODLXXI can safely make stronger claims about obligation, delegation, repair, reciprocity, identity continuity, and reputation.
+Mechanism specs are not runtime implementations. They define conceptual structures
+required before HODLXXI can safely make stronger claims about obligation, delegation,
+repair, reciprocity, identity continuity, and reputation.
 
 ## What mechanism specs are
 
@@ -51,12 +53,12 @@ Mechanism specs are not:
 5. [Identity Continuity v0](identity-continuity-v0.md)
 6. [Contextual Reputation v0](contextual-reputation-v0.md)
 
-Start with obligation because promises and acceptance criteria are the smallest unit of accountable relation.
-Then delegation because agents need bounded authority.
-Then repair because failure must not become either erasure or permanent punishment.
-Then reciprocity because cooperation is a pattern across time.
-Then identity continuity because long-running actors require rotation, revocation, and recovery.
-Then contextual reputation because reputation compresses memory from all previous layers.
+Start with obligation because promises and acceptance criteria are the smallest unit of
+accountable relation. Then delegation because agents need bounded authority. Then repair
+because failure must not become either erasure or permanent punishment. Then reciprocity
+because cooperation is a pattern across time. Then identity continuity because
+long-running actors require rotation, revocation, and recovery. Then contextual
+reputation because reputation compresses memory from all previous layers.
 
 ## Canon boundary
 
@@ -69,9 +71,11 @@ Then contextual reputation because reputation compresses memory from all previou
 
 ## Runtime implication
 
-These specs should guide future runtime design but should not be treated as already implemented.
+These specs should guide future runtime design but should not be treated as already
+implemented.
 
-A runtime surface should not claim stronger meaning than the corresponding mechanism can represent.
+A runtime surface should not claim stronger meaning than the corresponding mechanism can
+represent.
 
 Examples:
 

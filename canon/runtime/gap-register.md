@@ -4,9 +4,12 @@
 
 This document tracks the gap between Canon-level concepts and runtime implementation.
 
-Canon mechanisms are conceptual specifications. Runtime surfaces are observable system behavior. A runtime surface must not claim stronger meaning than it can actually represent.
+Canon mechanisms are conceptual specifications. Runtime surfaces are observable system
+behavior. A runtime surface must not claim stronger meaning than it can actually
+represent.
 
-This register exists to prevent self-deception, overclaiming, product theater, and accidental legitimacy laundering.
+This register exists to prevent self-deception, overclaiming, product theater, and
+accidental legitimacy laundering.
 
 ## Status legend
 
@@ -16,7 +19,8 @@ This register exists to prevent self-deception, overclaiming, product theater, a
 - **Unknown:** Not enough evidence in this repository to classify.
 - **Do not claim:** The runtime must not claim this until a stronger mechanism exists.
 
-This register is conservative by default. When evidence is ambiguous, the safer classification is the one that supports the weaker runtime claim.
+This register is conservative by default. When evidence is ambiguous, the safer
+classification is the one that supports the weaker runtime claim.
 
 ## Gap table
 

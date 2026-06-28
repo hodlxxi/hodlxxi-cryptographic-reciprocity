@@ -2,9 +2,11 @@
 
 ## Definition
 
-Consent is a voluntary and meaningful acceptance of a proposed action, relationship, constraint, or transfer of authority.
+Consent is a voluntary and meaningful acceptance of a proposed action, relationship,
+constraint, or transfer of authority.
 
-In CRT, consent is not the same as silence, technical access, payment, or possession of a key.
+In CRT, consent is not the same as silence, technical access, payment, or possession of
+a key.
 
 ## Operational meaning
 

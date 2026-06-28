@@ -2,7 +2,8 @@
 
 ## Definition
 
-Evidence is retained information that can support, weaken, or revise an interpretation of past behavior.
+Evidence is retained information that can support, weaken, or revise an interpretation
+of past behavior.
 
 In CRT, evidence is not the same as truth. It is material for judgment.
 

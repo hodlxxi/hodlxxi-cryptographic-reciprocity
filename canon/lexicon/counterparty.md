@@ -2,9 +2,12 @@
 
 ## Definition
 
-A counterparty is another actor whose behavior, consent, reliance, risk, or future claim matters to an interaction.
+A counterparty is another actor whose behavior, consent, reliance, risk, or future claim
+matters to an interaction.
 
-In CRT, counterparty is not merely an address, account, public key, or API caller. It is the other side of a relationship that may create memory, promise, obligation, reciprocity, dispute, repair, or reputation.
+In CRT, counterparty is not merely an address, account, public key, or API caller. It is
+the other side of a relationship that may create memory, promise, obligation,
+reciprocity, dispute, repair, or reputation.
 
 ## Operational meaning
 
@@ -51,9 +54,11 @@ In HODLXXI, counterparties may appear through:
 
 ## Implications for HODLXXI
 
-HODLXXI should distinguish requester, payer, operator, agent, covenant participant, and counterparty.
+HODLXXI should distinguish requester, payer, operator, agent, covenant participant, and
+counterparty.
 
-A future obligation model should bind claims to explicit counterparties rather than only to runtime events.
+A future obligation model should bind claims to explicit counterparties rather than only
+to runtime events.
 
 ## Open questions
 
