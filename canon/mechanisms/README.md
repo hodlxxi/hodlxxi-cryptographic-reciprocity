@@ -6,3 +6,4 @@ Mechanism specs are not runtime implementations.
 They describe the minimum conceptual structures required before HODLXXI can safely make stronger claims.
 
 - [Minimum Obligation Object v0](obligation-object-v0.md)
+- [Minimum Delegation Record v0](delegation-record-v0.md)

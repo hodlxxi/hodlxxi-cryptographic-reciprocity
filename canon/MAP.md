@@ -97,7 +97,7 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - repair state;
    - closure state.
 
-2. `delegation-record-v0`
+2. [`delegation-record-v0`](mechanisms/delegation-record-v0.md)
    - delegator;
    - delegate;
    - scope;
@@ -175,7 +175,7 @@ Recommended order:
 
 1. [Runtime claims matrix](runtime/claims-matrix.md)
 2. `mechanisms/obligation-object-v0.md`
-3. `mechanisms/delegation-record-v0.md`
+3. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md)
 4. `mechanisms/repair-lifecycle-v0.md`
 5. `mechanisms/reciprocity-pattern-v0.md`
 6. `mechanisms/identity-continuity-v0.md`
