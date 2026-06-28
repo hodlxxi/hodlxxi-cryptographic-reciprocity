@@ -13,7 +13,8 @@ reciprocity.
 Core rule:
 
 Runtime surfaces should expose what they prove, what they do not prove, and what
-mechanism would be required for stronger claims.
+mechanism would be required for stronger claims. Stable Canon claim IDs are listed in the
+[CRT Canon Claim Registry](../CLAIMS.md).
 
 ## Claim levels
 

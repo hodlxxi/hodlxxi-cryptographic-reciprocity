@@ -56,6 +56,7 @@ python scripts/check_canon_links.py
 - [Charter](CHARTER.md)
 - [Chapter template](TEMPLATE.md)
 - [Canon index](INDEX.md)
+- [Claim registry](CLAIMS.md)
 - [Volume I: Foundations](volumes/01-foundations.md)
 - [Volume II: Human Nature](volumes/02-human-nature.md)
 - [Volume III: Repeated Games](volumes/03-repeated-games.md)
