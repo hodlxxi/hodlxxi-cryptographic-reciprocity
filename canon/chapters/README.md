@@ -18,3 +18,4 @@ A chapter is not a manifesto or essay. It is a falsifiable research unit connect
 - [Identity Is Not Key Control](identity-is-not-key-control.md)
 - [Reputation Is Not a Score](reputation-is-not-a-score.md)
 - [Memory Before Forgiveness](memory-before-forgiveness.md)
+- [Bounded Authority for AI Agents](bounded-authority-for-ai-agents.md)
