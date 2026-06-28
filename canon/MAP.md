@@ -30,6 +30,8 @@ A Canon claim is not complete until it can answer:
 
 ## Current chapter layer
 
+The stable claim IDs in this chapter layer are centrally registered in the [CRT Canon Claim Registry](CLAIMS.md).
+
 | Chapter | Claim ID | Primary boundary | Runtime relevance |
 | --- | --- | --- | --- |
 | [Receipts as Event Proofs](chapters/receipts-as-event-proofs.md) | `CRT-RECEIPT-001` | Receipt proves event, not obligation. | `/agent/verify`, signed receipts, event memory. |
