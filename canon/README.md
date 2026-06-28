@@ -45,7 +45,13 @@ forgiveness, obligation, authority, or trust.
 
 ## Maintenance checks
 
-Check local Canon Markdown links before changing Canon structure:
+Run all Canon maintenance checks before changing Canon structure:
+
+```bash
+python scripts/check_canon.py
+```
+
+Optional manual checks:
 
 ```bash
 python scripts/check_canon_links.py
