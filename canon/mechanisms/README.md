@@ -9,3 +9,4 @@ They describe the minimum conceptual structures required before HODLXXI can safe
 - [Minimum Delegation Record v0](delegation-record-v0.md)
 - [Repair Lifecycle v0](repair-lifecycle-v0.md)
 - [Reciprocity Pattern v0](reciprocity-pattern-v0.md)
+- [Identity Continuity v0](identity-continuity-v0.md)
