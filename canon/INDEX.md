@@ -32,6 +32,7 @@ Every Canon claim should be connected to possible observation or falsification.
 ## Chapters
 
 - [Canon chapters overview](chapters/README.md)
+- [Evidence Is Not Truth](chapters/evidence-is-not-truth.md)
 - [Receipts as Event Proofs](chapters/receipts-as-event-proofs.md)
 
 ## Mechanisms
