@@ -15,3 +15,4 @@ A chapter is not a manifesto or essay. It is a falsifiable research unit connect
 ## Chapters
 
 - [Receipts as Event Proofs](receipts-as-event-proofs.md)
+- [Identity Is Not Key Control](identity-is-not-key-control.md)
