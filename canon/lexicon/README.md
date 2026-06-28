@@ -35,6 +35,13 @@ A term is not canonical until it can support:
 - [Receipt](receipt.md)
 - [Attestation](attestation.md)
 
+## Actor relationship terms
+
+- [Counterparty](counterparty.md)
+- [Authority](authority.md)
+- [Delegation](delegation.md)
+- [Consent](consent.md)
+
 ## Working discipline
 
 Theory defines language.
