@@ -174,12 +174,13 @@ The next stage should move from boundary chapters to mechanism specs.
 Recommended order:
 
 1. [Runtime claims matrix](runtime/claims-matrix.md)
-2. [mechanisms/obligation-object-v0.md](mechanisms/obligation-object-v0.md)
-3. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md)
-4. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md)
-5. [mechanisms/reciprocity-pattern-v0.md](mechanisms/reciprocity-pattern-v0.md)
-6. [mechanisms/identity-continuity-v0.md](mechanisms/identity-continuity-v0.md)
-7. [mechanisms/contextual-reputation-v0.md](mechanisms/contextual-reputation-v0.md)
+2. [Canon / Runtime Gap Register](runtime/gap-register.md)
+3. [mechanisms/obligation-object-v0.md](mechanisms/obligation-object-v0.md)
+4. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md)
+5. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md)
+6. [mechanisms/reciprocity-pattern-v0.md](mechanisms/reciprocity-pattern-v0.md)
+7. [mechanisms/identity-continuity-v0.md](mechanisms/identity-continuity-v0.md)
+8. [mechanisms/contextual-reputation-v0.md](mechanisms/contextual-reputation-v0.md)
 
 ## Warning
 
