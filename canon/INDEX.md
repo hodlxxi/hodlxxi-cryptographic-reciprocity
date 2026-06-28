@@ -34,6 +34,11 @@ Every Canon claim should be connected to possible observation or falsification.
 - [Canon chapters overview](chapters/README.md)
 - [Receipts as Event Proofs](chapters/receipts-as-event-proofs.md)
 
+## Mechanisms
+
+- [Mechanisms overview](mechanisms/README.md)
+- [Minimum Obligation Object v0](mechanisms/obligation-object-v0.md)
+
 ## Runtime linkage
 
 - [Runtime linkage overview](runtime/README.md)
