@@ -42,6 +42,7 @@ Every Canon claim should be connected to possible observation or falsification.
 - [Repair Lifecycle v0](mechanisms/repair-lifecycle-v0.md)
 - [Reciprocity Pattern v0](mechanisms/reciprocity-pattern-v0.md)
 - [Identity Continuity v0](mechanisms/identity-continuity-v0.md)
+- [Contextual Reputation v0](mechanisms/contextual-reputation-v0.md)
 
 ## Runtime linkage
 
