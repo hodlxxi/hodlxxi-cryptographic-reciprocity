@@ -37,6 +37,7 @@ Every Canon claim should be connected to possible observation or falsification.
 ## Runtime linkage
 
 - [Runtime linkage overview](runtime/README.md)
+- [Runtime claims matrix](runtime/claims-matrix.md)
 - [Runtime non-claims](runtime/non-claims.md)
 - [Identity layers](runtime/identity-layers.md)
 - [Receipts](runtime/receipts.md)
