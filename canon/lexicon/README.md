@@ -14,7 +14,7 @@ A term is not canonical until it can support:
 4. implications for HODLXXI;
 5. open questions or falsification paths.
 
-## Initial terms
+## Core terms
 
 - [Trust](trust.md)
 - [Reciprocity](reciprocity.md)
@@ -26,6 +26,14 @@ A term is not canonical until it can support:
 - [Reputation](reputation.md)
 - [Forgiveness](forgiveness.md)
 - [Legitimacy](legitimacy.md)
+
+## Evidence and verification terms
+
+- [Evidence](evidence.md)
+- [Proof](proof.md)
+- [Verification](verification.md)
+- [Receipt](receipt.md)
+- [Attestation](attestation.md)
 
 ## Working discipline
 
