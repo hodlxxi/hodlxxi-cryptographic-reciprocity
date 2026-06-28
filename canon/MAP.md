@@ -86,7 +86,7 @@ A Canon claim is not complete until it can answer:
 
 These are not immediate runtime tasks. They are Canon-level mechanism candidates.
 
-1. `obligation-object-v0`
+1. [`obligation-object-v0`](mechanisms/obligation-object-v0.md)
    - counterparty;
    - promise;
    - acceptance criteria;
