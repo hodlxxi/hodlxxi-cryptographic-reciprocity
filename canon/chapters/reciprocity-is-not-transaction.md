@@ -57,6 +57,12 @@ Reciprocity is a pattern across events, actors, memory, expectation, and time.
 
 A transaction can support reciprocity, but it cannot by itself prove reciprocal commitment.
 
+## Claim IDs
+
+| Claim ID | Existing claim |
+| --- | --- |
+| `CRT-RECIPROCITY-001` | Reciprocity is not a transaction; it is a pattern across events, actors, memory, expectation, and time. |
+
 ## 5. Non-claims
 
 This chapter does not claim that transactions are bad.

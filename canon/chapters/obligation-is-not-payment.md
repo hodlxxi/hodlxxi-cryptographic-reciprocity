@@ -56,6 +56,12 @@ An obligation requires at least a counterparty, a promise or expectation, accept
 
 Without these, payment produces evidence of exchange, not a full obligation relation.
 
+## Claim IDs
+
+| Claim ID | Existing claim |
+| --- | --- |
+| `CRT-OBLIGATION-001` | Payment is cost evidence; it is not obligation. |
+
 ## 5. Non-claims
 
 This chapter does not claim that payment has no meaning.

@@ -53,6 +53,12 @@ Memory without repair becomes brittle punishment.
 
 Forgiveness without memory becomes reputation laundering.
 
+## Claim IDs
+
+| Claim ID | Existing claim |
+| --- | --- |
+| `CRT-FORGIVENESS-001` | Forgiveness requires memory: without preserved memory of harm, repair, and changed behavior, forgiveness collapses into forgetting or erasure. |
+
 ## 5. Non-claims
 
 This chapter does not claim that every failure should be forgiven.

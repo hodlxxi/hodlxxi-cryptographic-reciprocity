@@ -55,6 +55,12 @@ It is not full identity.
 
 A public key can anchor continuity, but identity in CRT requires continuity of agency across time, interpretable behavior, memory, role context, and recognized constraints.
 
+## Claim IDs
+
+| Claim ID | Existing claim |
+| --- | --- |
+| `CRT-IDENTITY-001` | Key control is evidence of control over a cryptographic capability; it is not full identity. |
+
 ## 5. Non-claims
 
 This chapter does not claim that keys are unimportant.

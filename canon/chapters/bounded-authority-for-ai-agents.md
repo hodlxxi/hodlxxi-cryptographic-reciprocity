@@ -62,6 +62,12 @@ Authority answers what an agent is allowed to do.
 
 Legitimacy asks why that authority should be recognized.
 
+## Claim IDs
+
+| Claim ID | Existing claim |
+| --- | --- |
+| `CRT-AGENT-AUTHORITY-001` | AI agents should operate only within visible, scoped, revocable, and accountable authority; capability is not authority. |
+
 ## 5. Non-claims
 
 This chapter does not claim that AI agents cannot act.
