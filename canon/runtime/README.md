@@ -34,3 +34,4 @@ A mechanism is mature only when it can answer:
 ## Claim boundaries
 
 - [Runtime Claims Matrix](claims-matrix.md)
+- [Canon / Runtime Gap Register](gap-register.md)
