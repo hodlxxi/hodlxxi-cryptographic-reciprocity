@@ -5,7 +5,8 @@ This file is the central registry of stable CRT Canon claim IDs.
 Claim IDs are not doctrine. They are addressable, falsifiable research claims that help
 chapters, runtime surfaces, mechanisms, and tests refer to the same bounded claim without
 expanding its meaning. Runtime mechanisms may cite these IDs, but must not claim stronger
-meaning than the registered claim supports.
+meaning than the registered claim supports. Claim IDs must remain synchronized with the
+chapter files that define them.
 
 | Claim ID | Source chapter | Claim | Runtime relevance | Status |
 | --- | --- | --- | --- | --- |
