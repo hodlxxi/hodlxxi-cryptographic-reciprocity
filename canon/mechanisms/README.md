@@ -7,3 +7,4 @@ They describe the minimum conceptual structures required before HODLXXI can safe
 
 - [Minimum Obligation Object v0](obligation-object-v0.md)
 - [Minimum Delegation Record v0](delegation-record-v0.md)
+- [Repair Lifecycle v0](repair-lifecycle-v0.md)
