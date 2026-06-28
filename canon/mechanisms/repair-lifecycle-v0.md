@@ -53,17 +53,22 @@ A minimum repair lifecycle record needs the following fields before HODLXXI can 
 | Field | Description | Why it is required | What it does not prove |
 | --- | --- | --- | --- |
 | `repair_id` | A stable identifier for this repair lifecycle record. | Without a stable identifier, evidence, updates, acceptance, rejection, closure, and later reputation context cannot refer to the same repair process. | It does not prove repair is valid or fair. |
-| `trigger_event` | The failure, dispute, breach, misuse, harm, or alleged harm that opened the repair lifecycle. | Repair needs a bounded origin so it is not free-floating reputation theater or punishment without context. | It does not prove the allegation is true. |
+| `related_event` | The bounded event, failure, dispute, breach, misuse, harm, or alleged harm that opened the repair lifecycle. | Repair needs a declared event anchor so it is not free-floating reputation theater or punishment without context. | It does not prove the allegation is true or complete. |
+| `trigger_event` | A compatibility or human-readable reference to the initiating event, when distinct from `related_event`. | Some records may need to preserve the language of the initiating complaint or system event while still linking to a bounded event reference. | It does not prove causation, fault, or settled interpretation. |
 | `related_objects` | Linked obligations, delegation records, receipts, attestations, trust events, payments, messages, or verification records. | Repair must show which preserved events and claims it depends on. | It does not transform linked evidence into complete truth. |
 | `affected_parties` | Parties who claim harm, reliance loss, breach, misuse, or other injury. | Repair cannot be modeled honestly without naming whose interests are at stake, even if some identities remain private or pseudonymous. | It does not prove every affected party has been identified. |
-| `responding_parties` | Parties expected to answer, correct, compensate, apologize, mediate, or otherwise participate. | Repair requires a declared accountability surface rather than vague blame. | It does not prove responsibility is settled. |
-| `status` | Current lifecycle state, such as `opened`, `under_review`, `repair_proposed`, `repair_pending`, `accepted`, `rejected`, `forgiven`, `closed`, or `abandoned`. | Observers need to distinguish unresolved, contested, pending, accepted, rejected, forgiven, and closed contexts. | It does not prove justice or restored trust. |
-| `claim_context` | A bounded statement of what is alleged, admitted, disputed, or unknown. | Valid receipts can coexist with contested meaning, quality, authority, consent, or harm. | It does not prove the claim is complete or unbiased. |
-| `proposed_remedy` | Correction, re-performance, refund, restitution, apology, revocation, key rotation, mediation, disclosure, changed practice, or other remedy. | Repair must expose what action is supposed to address the failure rather than merely recording shame or blame. | It does not prove the remedy is adequate. |
+| `responsible_parties` | Parties alleged, admitted, or determined within the record to have responsibility to answer, correct, compensate, apologize, mediate, revoke, or otherwise participate. | Repair requires a declared accountability surface rather than vague blame or anonymous system failure. | It does not prove fault, legal liability, or moral responsibility is settled. |
+| `harm_or_failure_claim` | A bounded statement of the harm, failure, breach, misuse, or disputed effect being raised. | The lifecycle must preserve what is being repaired or contested so repair is not reduced to generic apology, refund, or reputation update. | It does not prove the claim is true, complete, or uncontested. |
+| `dispute_position` | The current position of relevant parties, such as alleged, admitted, denied, contested, partially accepted, unknown, or mediated. | Valid receipts can coexist with contested meaning, quality, authority, consent, or harm. | It does not prove bad faith, guilt, neutrality, or final judgment. |
+| `acknowledgement_state` | Whether the record, concern, harm, responsibility, or process has been acknowledged, denied, ignored, partially acknowledged, or left unknown. | Repair needs to distinguish awareness of a claim from admission of responsibility or completed remedy. | It does not prove apology, fault, acceptance, or repair. |
+| `remedy_plan` | Correction, re-performance, refund, restitution, apology, revocation, key rotation, mediation, disclosure, changed practice, or other proposed remedy. | Repair must expose what action is supposed to address the failure rather than merely recording shame or blame. | It does not prove the remedy is adequate or accepted. |
+| `remedy_evidence` | Receipts, signatures, messages, attestations, payment proofs, revocation records, verification outputs, or mediator statements relevant to a remedy attempt. | Remedy claims need evidence links so observers can see what was attempted, paid, corrected, revoked, or attested. | It does not prove sincerity, adequacy, justice, or restored trust. |
+| `affected_response` | The affected party or accepted process response to the remedy, such as pending, accepted, rejected, partially accepted, no response, or unknown. | Repair cannot be honestly represented by the actor attempting repair alone; the affected side or accepted process must be visible where available. | It does not prove all affected parties are satisfied or that silence equals consent. |
+| `repair_state` | Current repair lifecycle state, such as `opened`, `under_review`, `repair_proposed`, `repair_pending`, `repair_attempted`, `accepted`, `rejected`, `closed`, `abandoned`, or `expired`. | Observers need to distinguish unresolved, contested, pending, attempted, accepted, rejected, and closed contexts. | It does not prove justice, restored trust, or moral closure. |
+| `forgiveness_state` | Whether forgiveness, non-forgiveness, conditional re-entry, no statement, or unknown forgiveness context has been recorded. | Forgiveness must be separated from repair, closure, and reputation so memory is not erased by implication. | It does not prove memory should be erased or trust is automatic. |
 | `acceptance_criteria` | Conditions under which the remedy may be treated as accepted, rejected, partially accepted, or expired. | Repair needs testable boundaries so closure is not inferred from payment, apology, or passage of time alone. | It does not prove affected parties are satisfied. |
-| `evidence_links` | Receipts, signatures, messages, attestations, mediator statements, payment proofs, revocation records, or verification outputs relevant to repair. | Evidence must be attached explicitly so observers can see what the lifecycle depends on. | It does not prove justice, sincerity, or complete context. |
-| `memory_policy` | How the original event, dispute, repair attempt, and closure should remain visible, private, selective, or summarized. | Repair must not become erasure, but memory must also avoid unbounded punishment and unnecessary disclosure. | It does not guarantee every observer will apply the policy correctly. |
 | `reputation_effect` | Whether and how the repair lifecycle may inform reputation memory. | Reputation should distinguish unresolved harm, accepted repair, rejected repair, forgiveness, and re-entry instead of collapsing them into a score. | It does not prove global trustworthiness or moral worth. |
+| `memory_policy` | How the original event, dispute, repair attempt, and closure should remain visible, private, selective, or summarized. | Repair must not become erasure, but memory must also avoid unbounded punishment and unnecessary disclosure. | It does not guarantee every observer will apply the policy correctly. |
 | `non_claims` | Explicit statements about what this repair lifecycle does not prove. | Non-claims prevent repair records from laundering justice, forgiveness, restored trust, or legitimacy. | It prevents overclaim, but it does not ensure users will read or honor the limits. |
 
 ## Optional fields
@@ -134,12 +139,12 @@ The repair lifecycle may refer to existing or expected runtime surfaces, but non
 A well-formed repair lifecycle can prove or support only bounded claims:
 
 - that a repair process was represented;
-- that a trigger event was declared;
-- that affected and responding parties were recorded;
-- that related evidence links were attached;
-- that a status was recorded;
-- that a proposed remedy and acceptance criteria were stated;
-- that memory and reputation policies were declared;
+- that a related event was declared;
+- that affected and responsible parties were recorded;
+- that a harm or failure claim and dispute position were stated;
+- that acknowledgement, affected response, repair, and forgiveness states were recorded;
+- that a remedy plan and remedy evidence were attached;
+- that acceptance criteria, memory policy, and reputation effect were declared;
 - that non-claims were visible.
 
 It still does not prove truth, blame, adequacy, satisfaction, forgiveness, justice, restored trust, or full identity by itself.
@@ -162,9 +167,9 @@ The existence or state of a repair lifecycle must not be used for these overclai
 ## Failure modes
 
 - fake repair lifecycle;
-- vague trigger event;
+- vague related event;
 - missing affected parties;
-- hidden responding party;
+- hidden responsible party;
 - coercive forgiveness;
 - apology theater;
 - refund laundering;

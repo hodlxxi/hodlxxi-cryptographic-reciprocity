@@ -107,7 +107,7 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - revocation path;
    - accountability path.
 
-3. `repair-lifecycle-v0`
+3. [`repair-lifecycle-v0`](mechanisms/repair-lifecycle-v0.md)
    - disputed event;
    - acknowledgement;
    - correction;
@@ -176,7 +176,7 @@ Recommended order:
 1. [Runtime claims matrix](runtime/claims-matrix.md)
 2. `mechanisms/obligation-object-v0.md`
 3. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md)
-4. `mechanisms/repair-lifecycle-v0.md`
+4. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md)
 5. `mechanisms/reciprocity-pattern-v0.md`
 6. `mechanisms/identity-continuity-v0.md`
 7. `mechanisms/contextual-reputation-v0.md`
