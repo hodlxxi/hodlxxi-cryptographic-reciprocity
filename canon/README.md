@@ -49,6 +49,7 @@ Check local Canon Markdown links before changing Canon structure:
 
 ```bash
 python scripts/check_canon_links.py
+python scripts/check_canon_claim_ids.py
 ```
 
 ## Structure
