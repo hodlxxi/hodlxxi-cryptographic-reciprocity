@@ -21,3 +21,4 @@ A chapter is not a manifesto or essay. It is a falsifiable research unit connect
 - [Bounded Authority for AI Agents](bounded-authority-for-ai-agents.md)
 - [Obligation Is Not Payment](obligation-is-not-payment.md)
 - [Commitment Is Not Lockup](commitment-is-not-lockup.md)
+- [Reciprocity Is Not Transaction](reciprocity-is-not-transaction.md)
