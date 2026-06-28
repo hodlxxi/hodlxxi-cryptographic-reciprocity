@@ -16,6 +16,15 @@ Every engineering mechanism should be traceable to a Canon claim.
 
 Every Canon claim should be connected to possible observation or falsification.
 
+## Lexicon
+
+- [Lexicon overview](lexicon/README.md)
+- [Evidence](lexicon/evidence.md)
+- [Proof](lexicon/proof.md)
+- [Verification](lexicon/verification.md)
+- [Receipt](lexicon/receipt.md)
+- [Attestation](lexicon/attestation.md)
+
 ## Chapters
 
 - [Canon chapters overview](chapters/README.md)
