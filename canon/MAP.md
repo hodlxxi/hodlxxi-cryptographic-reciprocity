@@ -30,35 +30,35 @@ A Canon claim is not complete until it can answer:
 
 ## Current chapter layer
 
-| Chapter | Primary boundary | Runtime relevance |
-| --- | --- | --- |
-| [Receipts as Event Proofs](chapters/receipts-as-event-proofs.md) | Receipt proves event, not obligation. | `/agent/verify`, signed receipts, event memory. |
-| [Identity Is Not Key Control](chapters/identity-is-not-key-control.md) | Key control is not full identity. | operator key, agent key, requester key, Human Proof. |
-| [Reputation Is Not a Score](chapters/reputation-is-not-a-score.md) | Reputation is compressed memory, not a simple score. | `/agent/reputation`, attestations, job history. |
-| [Memory Before Forgiveness](chapters/memory-before-forgiveness.md) | Forgiveness needs memory and repair. | event chain, future dispute/correction/repair records. |
-| [Bounded Authority for AI Agents](chapters/bounded-authority-for-ai-agents.md) | Capability is not authority. | `/agent/capabilities`, agent messages, future delegation. |
-| [Obligation Is Not Payment](chapters/obligation-is-not-payment.md) | Payment is cost evidence, not obligation. | Lightning invoice, paid jobs, receipts. |
-| [Commitment Is Not Lockup](chapters/commitment-is-not-lockup.md) | Lockup is constraint proof, not complete commitment. | covenants, time locks, proof-of-funds surfaces. |
-| [Reciprocity Is Not Transaction](chapters/reciprocity-is-not-transaction.md) | Transaction is event; reciprocity is pattern over time. | receipts, repeated interactions, marketplace, covenants. |
+| Chapter | Claim ID | Primary boundary | Runtime relevance |
+| --- | --- | --- | --- |
+| [Receipts as Event Proofs](chapters/receipts-as-event-proofs.md) | `CRT-RECEIPT-001` | Receipt proves event, not obligation. | `/agent/verify`, signed receipts, event memory. |
+| [Identity Is Not Key Control](chapters/identity-is-not-key-control.md) | `CRT-IDENTITY-001` | Key control is not full identity. | operator key, agent key, requester key, Human Proof. |
+| [Reputation Is Not a Score](chapters/reputation-is-not-a-score.md) | `CRT-REPUTATION-001` | Reputation is compressed memory, not a simple score. | `/agent/reputation`, attestations, job history. |
+| [Memory Before Forgiveness](chapters/memory-before-forgiveness.md) | `CRT-FORGIVENESS-001` | Forgiveness needs memory and repair. | event chain, future dispute/correction/repair records. |
+| [Bounded Authority for AI Agents](chapters/bounded-authority-for-ai-agents.md) | `CRT-AGENT-AUTHORITY-001` | Capability is not authority. | `/agent/capabilities`, agent messages, future delegation. |
+| [Obligation Is Not Payment](chapters/obligation-is-not-payment.md) | `CRT-OBLIGATION-001` | Payment is cost evidence, not obligation. | Lightning invoice, paid jobs, receipts. |
+| [Commitment Is Not Lockup](chapters/commitment-is-not-lockup.md) | `CRT-COMMITMENT-001` | Lockup is constraint proof, not complete commitment. | covenants, time locks, proof-of-funds surfaces. |
+| [Reciprocity Is Not Transaction](chapters/reciprocity-is-not-transaction.md) | `CRT-RECIPROCITY-001` | Transaction is event; reciprocity is pattern over time. | receipts, repeated interactions, marketplace, covenants. |
 
 ## Runtime surface map
 
 | Runtime surface | What it can prove | What it must not be read as | Related chapter | Missing mechanism |
 | --- | --- | --- | --- | --- |
-| Signed receipt | A bounded runtime event was signed. | Fulfilled obligation or human satisfaction. | Receipts as Event Proofs | Obligation object. |
-| `/agent/verify/<job_id>` | A receipt can be checked. | Final judgment about meaning. | Receipts as Event Proofs | Verification non-claims. |
-| Agent key | A runtime key signed something. | Full agent identity or authority. | Identity Is Not Key Control | Agent continuity record. |
-| Operator key | A declared operator anchor exists. | Approval of every runtime action. | Identity Is Not Key Control | Operator-agent relation record. |
-| Requester key | A key is associated with a request. | Legal identity, payer identity, or full counterparty. | Identity Is Not Key Control | First-class requester context. |
-| `/agent/reputation` | Aggregated operational memory. | Global social trust score. | Reputation Is Not a Score | Contextual reputation model. |
-| Attestation | A statement was exposed or signed. | Truth, legitimacy, or final judgment. | Reputation Is Not a Score | Counter-attestation path. |
-| Event chain | Local continuity of recorded events. | External anchoring or justice. | Memory Before Forgiveness | Dispute and repair lifecycle. |
-| `/agent/capabilities` | What the agent says it can do. | What the agent is allowed to do. | Bounded Authority for AI Agents | Delegation record. |
-| Agent message | A key signed a message. | Authority to represent another actor. | Bounded Authority for AI Agents | Authority proof. |
-| Lightning invoice | A payment path exists. | Promise, consent, or obligation. | Obligation Is Not Payment | Acceptance criteria. |
-| Paid job | Work entered an execution path. | Durable commitment or satisfaction. | Obligation Is Not Payment | Job-level obligation state. |
-| Covenant lockup | Value and time constraint are visible. | Love, loyalty, legitimacy, or full commitment. | Commitment Is Not Lockup | Covenant purpose and non-claims. |
-| Marketplace interaction | A trade context exists. | Durable reciprocal cooperation. | Reciprocity Is Not Transaction | Relationship pattern model. |
+| Signed receipt | A bounded runtime event was signed. | Fulfilled obligation or human satisfaction. | Receipts as Event Proofs (`CRT-RECEIPT-001`) | Obligation object. |
+| `/agent/verify/<job_id>` | A receipt can be checked. | Final judgment about meaning. | Receipts as Event Proofs (`CRT-RECEIPT-001`) | Verification non-claims. |
+| Agent key | A runtime key signed something. | Full agent identity or authority. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | Agent continuity record. |
+| Operator key | A declared operator anchor exists. | Approval of every runtime action. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | Operator-agent relation record. |
+| Requester key | A key is associated with a request. | Legal identity, payer identity, or full counterparty. | Identity Is Not Key Control (`CRT-IDENTITY-001`) | First-class requester context. |
+| `/agent/reputation` | Aggregated operational memory. | Global social trust score. | Reputation Is Not a Score (`CRT-REPUTATION-001`) | Contextual reputation model. |
+| Attestation | A statement was exposed or signed. | Truth, legitimacy, or final judgment. | Reputation Is Not a Score (`CRT-REPUTATION-001`) | Counter-attestation path. |
+| Event chain | Local continuity of recorded events. | External anchoring or justice. | Memory Before Forgiveness (`CRT-FORGIVENESS-001`) | Dispute and repair lifecycle. |
+| `/agent/capabilities` | What the agent says it can do. | What the agent is allowed to do. | Bounded Authority for AI Agents (`CRT-AGENT-AUTHORITY-001`) | Delegation record. |
+| Agent message | A key signed a message. | Authority to represent another actor. | Bounded Authority for AI Agents (`CRT-AGENT-AUTHORITY-001`) | Authority proof. |
+| Lightning invoice | A payment path exists. | Promise, consent, or obligation. | Obligation Is Not Payment (`CRT-OBLIGATION-001`) | Acceptance criteria. |
+| Paid job | Work entered an execution path. | Durable commitment or satisfaction. | Obligation Is Not Payment (`CRT-OBLIGATION-001`) | Job-level obligation state. |
+| Covenant lockup | Value and time constraint are visible. | Love, loyalty, legitimacy, or full commitment. | Commitment Is Not Lockup (`CRT-COMMITMENT-001`) | Covenant purpose and non-claims. |
+| Marketplace interaction | A trade context exists. | Durable reciprocal cooperation. | Reciprocity Is Not Transaction (`CRT-RECIPROCITY-001`) | Relationship pattern model. |
 
 ## Lexicon coverage
 

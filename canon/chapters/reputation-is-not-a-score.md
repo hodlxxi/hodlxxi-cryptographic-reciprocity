@@ -61,6 +61,12 @@ A score is only one possible compression of memory, and often a dangerous one.
 Reputation in CRT must remain contextual, counterparty-sensitive, revisable, and
 connected to evidence, dispute, repair, and time.
 
+## Claim IDs
+
+| Claim ID | Existing claim |
+| --- | --- |
+| `CRT-REPUTATION-001` | Reputation is compressed memory; a score is only one possible compression and often a dangerous one. |
+
 ## 5. Non-claims
 
 This chapter does not claim that metrics are useless.

@@ -54,6 +54,12 @@ breach condition, and remedy are explicitly modeled.
 The purpose of a receipt is to preserve memory of a recorded event. Its purpose is not
 to settle every social meaning attached to that event.
 
+## Claim IDs
+
+| Claim ID | Existing claim |
+| --- | --- |
+| `CRT-RECEIPT-001` | A receipt is evidence that a bounded runtime event occurred; it is not evidence of obligation fulfillment, human satisfaction, or trustworthiness. |
+
 ## 5. Non-claims
 
 This chapter does not claim that receipts are useless or that cryptographic proof is

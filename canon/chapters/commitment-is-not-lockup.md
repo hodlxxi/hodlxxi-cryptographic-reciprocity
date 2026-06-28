@@ -65,6 +65,12 @@ A lockup can support commitment by making cost, time, and constraint visible. Bu
 commitment in CRT also requires meaning, counterparty context, remembered promise,
 obligation boundary, and interpretable behavior over time.
 
+## Claim IDs
+
+| Claim ID | Existing claim |
+| --- | --- |
+| `CRT-COMMITMENT-001` | A lockup is a constraint proof; it is not a complete commitment proof. |
+
 ## 5. Non-claims
 
 This chapter does not claim that lockups are useless.
