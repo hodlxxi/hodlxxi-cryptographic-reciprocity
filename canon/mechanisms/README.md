@@ -44,6 +44,7 @@ Mechanism specs are not:
 | [Reciprocity Pattern v0](reciprocity-pattern-v0.md) | What must be represented before HODLXXI can claim reciprocal cooperation across time? | Reciprocity is not transaction count, payment history, equal exchange, repeated activity, repair record, or score. | Evidence Boundary Metadata v0, time/order semantics, obligations, delegations where agents act for counterparties, repair lifecycles where failure or re-entry affects reciprocity, contextual reputation, expectations, asymmetry, contributions, benefits, burdens, and delayed returns. |
 | [Identity Continuity v0](identity-continuity-v0.md) | What must be represented before HODLXXI can claim identity continuity over time? | Key control, login, endpoint, Human Proof, or reputation is not identity. | Anchors, key purpose, role context, rotation, revocation, recovery. |
 | [Contextual Reputation v0](contextual-reputation-v0.md) | What must be represented before HODLXXI can summarize reputation? | Reputation is contextual compressed memory, not a global score. | Memory inputs, obligations, delegations, repairs, reciprocity, identity, disputes. |
+| [QR Pointer v0](qr-pointer-v0.md) | What must be represented before QR codes can safely point to HODLXXI surfaces? | A scan is not identity, consent, delegation, approval, receipt validity, or trust. | Runtime surfaces, receipts, attestations, delegation records, evidence boundaries, privacy, revocation. |
 
 ## Suggested reading order
 
@@ -54,6 +55,7 @@ Mechanism specs are not:
 5. [Reciprocity Pattern v0](reciprocity-pattern-v0.md)
 6. [Identity Continuity v0](identity-continuity-v0.md)
 7. [Contextual Reputation v0](contextual-reputation-v0.md)
+8. [QR Pointer v0](qr-pointer-v0.md)
 
 Start with evidence boundary metadata because every later mechanism depends on bounded interpretation. Then obligation because promises, acceptance criteria, and time/order semantics are the smallest unit of
 accountable relation. Then delegation because agents need bounded authority, evidence boundary metadata, identity/key-control boundaries, time/order semantics, and obligation links when delegated actions create or touch obligations. Then repair
@@ -78,6 +80,7 @@ reputation because reputation compresses memory from all previous layers.
 - Repair is not erasure.
 - Reciprocity is not transaction count.
 - Reputation is not a score.
+- A QR scan is not identity, consent, delegation, approval, receipt validity, or trust.
 
 ## Runtime implication
 
@@ -96,6 +99,7 @@ Examples:
 - A repeated event sequence may support reciprocity context only when bounded by evidence metadata, time/order semantics, and relevant obligation, delegation, repair, and reputation context; it does not prove trust.
 - A key or endpoint may support identity continuity but does not prove full identity.
 - A reputation summary may compress memory but does not prove moral worth.
+- A QR pointer may open a discovery or verification surface but does not prove identity, consent, delegation, approval, receipt validity, payment, obligation, or trust.
 
 ## Current mechanism specs
 
@@ -106,6 +110,7 @@ Examples:
 - [Reciprocity Pattern v0](reciprocity-pattern-v0.md)
 - [Identity Continuity v0](identity-continuity-v0.md)
 - [Contextual Reputation v0](contextual-reputation-v0.md)
+- [QR Pointer v0](qr-pointer-v0.md)
 
 ## Failure-mode focus
 
