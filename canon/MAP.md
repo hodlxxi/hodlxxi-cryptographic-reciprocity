@@ -132,14 +132,19 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - dispute path;
    - explicit non-claims.
 4. [`repair-lifecycle-v0`](mechanisms/repair-lifecycle-v0.md)
+   - depends on `evidence-boundary-metadata-v0`;
+   - links to `obligation-object-v0` when repair involves payment, refund, breach, remedy, satisfaction, or obligation closure;
+   - links to `delegation-record-v0` when failure or misuse involves delegated authority;
    - disputed event;
+   - affected and responsible parties;
    - acknowledgement;
    - correction;
    - restitution;
-   - repair attestation;
-   - post-repair behavior;
+   - repair action and evidence boundary references;
+   - changed behavior over a review horizon;
+   - dispute, counter-evidence, revocation, and correction paths;
    - forgiveness annotation;
-   - non-erasure rule.
+   - non-erasure and non-closure-laundering rules.
 5. [`reciprocity-pattern-v0`](mechanisms/reciprocity-pattern-v0.md)
    - counterparties;
    - repeated events;
@@ -196,7 +201,7 @@ Recommended order:
 2. [Canon / Runtime Gap Register](runtime/gap-register.md)
 3. [mechanisms/obligation-object-v0.md](mechanisms/obligation-object-v0.md) after evidence-boundary metadata, because obligation interpretation depends on bounded evidence and time/order semantics
 4. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md) after evidence-boundary metadata and with obligation-object links whenever delegated action creates, modifies, verifies, or disputes obligations
-5. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md)
+5. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md) after evidence-boundary metadata, obligation-object, and delegation-record, because repair interpretation depends on bounded evidence, time/order semantics, obligation context, and delegation/accountability context when authority was delegated or misused
 6. [mechanisms/reciprocity-pattern-v0.md](mechanisms/reciprocity-pattern-v0.md)
 7. [mechanisms/identity-continuity-v0.md](mechanisms/identity-continuity-v0.md)
 8. [mechanisms/contextual-reputation-v0.md](mechanisms/contextual-reputation-v0.md)
