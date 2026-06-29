@@ -105,15 +105,18 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - counter-evidence path;
    - judgment boundary.
 2. [`obligation-object-v0`](mechanisms/obligation-object-v0.md)
+   - depends on `evidence-boundary-metadata-v0`;
    - counterparty;
-   - promise;
+   - promise or expectation;
    - acceptance criteria;
-   - time horizon;
+   - evidence and evidence boundary references;
+   - created, accepted, due, execution, and verification time semantics;
    - breach condition;
-   - dispute state;
+   - dispute path;
    - remedy path;
-   - repair state;
-   - closure state.
+   - repair path;
+   - explicit non-claims;
+   - human interpretation requirement.
 3. [`delegation-record-v0`](mechanisms/delegation-record-v0.md)
    - delegator;
    - delegate;
@@ -186,7 +189,7 @@ Recommended order:
 
 1. [Runtime claims matrix](runtime/claims-matrix.md)
 2. [Canon / Runtime Gap Register](runtime/gap-register.md)
-3. [mechanisms/obligation-object-v0.md](mechanisms/obligation-object-v0.md)
+3. [mechanisms/obligation-object-v0.md](mechanisms/obligation-object-v0.md) after evidence-boundary metadata, because obligation interpretation depends on bounded evidence and time/order semantics
 4. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md)
 5. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md)
 6. [mechanisms/reciprocity-pattern-v0.md](mechanisms/reciprocity-pattern-v0.md)

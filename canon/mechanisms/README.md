@@ -38,7 +38,7 @@ Mechanism specs are not:
 | Mechanism | Primary question | Main boundary it protects | Depends on / relates to |
 | --- | --- | --- | --- |
 | [Evidence Boundary Metadata v0](evidence-boundary-metadata-v0.md) | What metadata must evidence surfaces expose before users or agents interpret them? | Evidence, timestamps, receipts, attestations, lockups, and summaries are not truth or meaning. | Bounded claims, non-claims, missing context, contradiction, revocation, dispute, repair, privacy, retention. |
-| [Minimum Obligation Object v0](obligation-object-v0.md) | What must be represented before HODLXXI can claim an obligation exists? | Payment, receipt, or execution is not obligation. | Receipts, requests, acceptance criteria, breach, remedy, repair. |
+| [Minimum Obligation Object v0](obligation-object-v0.md) | What must be represented before HODLXXI can claim an obligation exists? | Payment, receipt, execution, or timestamp order is not obligation, fulfillment, or satisfaction. | Evidence Boundary Metadata v0, receipts, requests, acceptance criteria, time/order semantics, breach, dispute, remedy, repair. |
 | [Minimum Delegation Record v0](delegation-record-v0.md) | What must be represented before an actor or agent can act under delegated authority? | Capability, key control, or signed message is not authority. | Agent identity, operator key, scope, revocation, accountability, obligations. |
 | [Repair Lifecycle v0](repair-lifecycle-v0.md) | What must be represented after harm, breach, misuse, dispute, or failure? | Repair is not erasure, forgiveness, refund, or reputation laundering. | Obligations, delegations, affected response, memory policy, reputation. |
 | [Reciprocity Pattern v0](reciprocity-pattern-v0.md) | What must be represented before HODLXXI can claim reciprocal cooperation across time? | Reciprocity is not transaction count, payment history, equal exchange, or score. | Repeated events, expectations, asymmetry, repairs, obligations, reputation. |
@@ -55,7 +55,7 @@ Mechanism specs are not:
 6. [Identity Continuity v0](identity-continuity-v0.md)
 7. [Contextual Reputation v0](contextual-reputation-v0.md)
 
-Start with evidence boundary metadata because every later mechanism depends on bounded interpretation. Then obligation because promises and acceptance criteria are the smallest unit of
+Start with evidence boundary metadata because every later mechanism depends on bounded interpretation. Then obligation because promises, acceptance criteria, and time/order semantics are the smallest unit of
 accountable relation. Then delegation because agents need bounded authority. Then repair
 because failure must not become either erasure or permanent punishment. Then reciprocity
 because cooperation is a pattern across time. Then identity continuity because
@@ -83,7 +83,7 @@ represent.
 Examples:
 
 - Evidence boundary metadata may expose bounded claims and non-claims but does not prove truth.
-- A signed receipt may support an obligation record but does not prove obligation.
+- A signed receipt may support an obligation record through evidence boundary metadata but does not prove obligation, fulfillment, or satisfaction.
 - A capabilities endpoint may support a delegation record but does not prove authority.
 - A repair record may support reputation context but does not erase memory.
 - A repeated event sequence may support reciprocity context but does not prove trust.
