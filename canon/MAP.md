@@ -146,14 +146,16 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - forgiveness annotation;
    - non-erasure and non-closure-laundering rules.
 5. [`reciprocity-pattern-v0`](mechanisms/reciprocity-pattern-v0.md)
-   - counterparties;
-   - repeated events;
-   - time horizon;
-   - asymmetry;
-   - delay;
-   - repair;
-   - re-entry;
-   - non-claims.
+   - depends on `evidence-boundary-metadata-v0`;
+   - links to `obligation-object-v0` when obligations, paid work, breach, remedy, satisfaction, or closure affect the pattern;
+   - links to `delegation-record-v0` where agents act for counterparties;
+   - links to `repair-lifecycle-v0` where failures, breaches, forgiveness, changed behavior, or re-entry affect reciprocity;
+   - counterparties and roles;
+   - bounded event references;
+   - time horizon and sequence context;
+   - expectations, asymmetry, contributions, benefits, burdens, delayed returns, and non-monetary actions;
+   - reputation context;
+   - explicit non-claims and human interpretation requirement.
 6. [`identity-continuity-v0`](mechanisms/identity-continuity-v0.md)
    - key purpose;
    - rotation;

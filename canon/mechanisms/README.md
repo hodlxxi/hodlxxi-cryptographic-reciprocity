@@ -41,7 +41,7 @@ Mechanism specs are not:
 | [Minimum Obligation Object v0](obligation-object-v0.md) | What must be represented before HODLXXI can claim an obligation exists? | Payment, receipt, execution, or timestamp order is not obligation, fulfillment, or satisfaction. | Evidence Boundary Metadata v0, receipts, requests, acceptance criteria, time/order semantics, breach, dispute, remedy, repair. |
 | [Minimum Delegation Record v0](delegation-record-v0.md) | What must be represented before an actor or agent can act under delegated authority? | Capability, key control, signed message, operator key, or agent fluency is not authority. | Evidence Boundary Metadata v0, identity/key-control boundaries, time/order semantics, obligation links, scope, revocation, accountability. |
 | [Repair Lifecycle v0](repair-lifecycle-v0.md) | What must be represented after harm, breach, misuse, dispute, or failure? | Repair is not erasure, forgiveness, refund, closure, restored trust, or reputation laundering. | Evidence Boundary Metadata v0, time/order semantics, obligations, delegations, affected response, dispute/counter-evidence paths, memory policy, changed behavior, reputation. |
-| [Reciprocity Pattern v0](reciprocity-pattern-v0.md) | What must be represented before HODLXXI can claim reciprocal cooperation across time? | Reciprocity is not transaction count, payment history, equal exchange, or score. | Repeated events, expectations, asymmetry, repairs, obligations, reputation. |
+| [Reciprocity Pattern v0](reciprocity-pattern-v0.md) | What must be represented before HODLXXI can claim reciprocal cooperation across time? | Reciprocity is not transaction count, payment history, equal exchange, repeated activity, repair record, or score. | Evidence Boundary Metadata v0, time/order semantics, obligations, delegations where agents act for counterparties, repair lifecycles where failure or re-entry affects reciprocity, contextual reputation, expectations, asymmetry, contributions, benefits, burdens, and delayed returns. |
 | [Identity Continuity v0](identity-continuity-v0.md) | What must be represented before HODLXXI can claim identity continuity over time? | Key control, login, endpoint, Human Proof, or reputation is not identity. | Anchors, key purpose, role context, rotation, revocation, recovery. |
 | [Contextual Reputation v0](contextual-reputation-v0.md) | What must be represented before HODLXXI can summarize reputation? | Reputation is contextual compressed memory, not a global score. | Memory inputs, obligations, delegations, repairs, reciprocity, identity, disputes. |
 
@@ -60,7 +60,9 @@ accountable relation. Then delegation because agents need bounded authority, evi
 because failure must not become either erasure, refund laundering, closure laundering,
 or permanent punishment, and because repair claims depend on bounded evidence,
 obligation context, and delegation/accountability context where relevant. Then reciprocity
-because cooperation is a pattern across time. Then identity continuity because
+because cooperation is a pattern across time and needs bounded evidence, time/order
+semantics, obligation context, delegation context where agents act for counterparties,
+and repair/re-entry context where failures affect cooperation. Then identity continuity because
 long-running actors require rotation, revocation, and recovery. Then contextual
 reputation because reputation compresses memory from all previous layers.
 
@@ -91,7 +93,7 @@ Examples:
 - A signed receipt may support an obligation record through evidence boundary metadata but does not prove obligation, fulfillment, or satisfaction.
 - A capabilities endpoint may support a delegation record but does not prove authority.
 - A repair record may support reputation context but does not erase memory.
-- A repeated event sequence may support reciprocity context but does not prove trust.
+- A repeated event sequence may support reciprocity context only when bounded by evidence metadata, time/order semantics, and relevant obligation, delegation, repair, and reputation context; it does not prove trust.
 - A key or endpoint may support identity continuity but does not prove full identity.
 - A reputation summary may compress memory but does not prove moral worth.
 
