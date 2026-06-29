@@ -46,6 +46,7 @@ Every Canon claim should be connected to possible observation or falsification.
 - [Reciprocity Pattern v0](mechanisms/reciprocity-pattern-v0.md)
 - [Identity Continuity v0](mechanisms/identity-continuity-v0.md)
 - [Contextual Reputation v0](mechanisms/contextual-reputation-v0.md)
+- [QR Pointer v0](mechanisms/qr-pointer-v0.md)
 
 ## Runtime linkage
 
