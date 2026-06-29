@@ -118,14 +118,19 @@ These are not immediate runtime tasks. They are Canon-level mechanism candidates
    - explicit non-claims;
    - human interpretation requirement.
 3. [`delegation-record-v0`](mechanisms/delegation-record-v0.md)
-   - delegator;
-   - delegate;
+   - depends on `evidence-boundary-metadata-v0`;
+   - links to `obligation-object-v0` when delegated action creates or touches obligations;
+   - visible delegator and delegate;
+   - delegator and delegate roles;
    - scope;
-   - duration;
-   - permitted actions;
-   - evidence of consent;
+   - allowed and prohibited actions;
+   - authority source;
+   - evidence of consent and evidence boundary references;
+   - created, effective, and expiry or horizon time semantics;
    - revocation path;
-   - accountability path.
+   - accountability path;
+   - dispute path;
+   - explicit non-claims.
 4. [`repair-lifecycle-v0`](mechanisms/repair-lifecycle-v0.md)
    - disputed event;
    - acknowledgement;
@@ -190,7 +195,7 @@ Recommended order:
 1. [Runtime claims matrix](runtime/claims-matrix.md)
 2. [Canon / Runtime Gap Register](runtime/gap-register.md)
 3. [mechanisms/obligation-object-v0.md](mechanisms/obligation-object-v0.md) after evidence-boundary metadata, because obligation interpretation depends on bounded evidence and time/order semantics
-4. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md)
+4. [mechanisms/delegation-record-v0.md](mechanisms/delegation-record-v0.md) after evidence-boundary metadata and with obligation-object links whenever delegated action creates, modifies, verifies, or disputes obligations
 5. [mechanisms/repair-lifecycle-v0.md](mechanisms/repair-lifecycle-v0.md)
 6. [mechanisms/reciprocity-pattern-v0.md](mechanisms/reciprocity-pattern-v0.md)
 7. [mechanisms/identity-continuity-v0.md](mechanisms/identity-continuity-v0.md)
