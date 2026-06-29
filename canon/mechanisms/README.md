@@ -40,7 +40,7 @@ Mechanism specs are not:
 | [Evidence Boundary Metadata v0](evidence-boundary-metadata-v0.md) | What metadata must evidence surfaces expose before users or agents interpret them? | Evidence, timestamps, receipts, attestations, lockups, and summaries are not truth or meaning. | Bounded claims, non-claims, missing context, contradiction, revocation, dispute, repair, privacy, retention. |
 | [Minimum Obligation Object v0](obligation-object-v0.md) | What must be represented before HODLXXI can claim an obligation exists? | Payment, receipt, execution, or timestamp order is not obligation, fulfillment, or satisfaction. | Evidence Boundary Metadata v0, receipts, requests, acceptance criteria, time/order semantics, breach, dispute, remedy, repair. |
 | [Minimum Delegation Record v0](delegation-record-v0.md) | What must be represented before an actor or agent can act under delegated authority? | Capability, key control, signed message, operator key, or agent fluency is not authority. | Evidence Boundary Metadata v0, identity/key-control boundaries, time/order semantics, obligation links, scope, revocation, accountability. |
-| [Repair Lifecycle v0](repair-lifecycle-v0.md) | What must be represented after harm, breach, misuse, dispute, or failure? | Repair is not erasure, forgiveness, refund, or reputation laundering. | Obligations, delegations, affected response, memory policy, reputation. |
+| [Repair Lifecycle v0](repair-lifecycle-v0.md) | What must be represented after harm, breach, misuse, dispute, or failure? | Repair is not erasure, forgiveness, refund, closure, restored trust, or reputation laundering. | Evidence Boundary Metadata v0, time/order semantics, obligations, delegations, affected response, dispute/counter-evidence paths, memory policy, changed behavior, reputation. |
 | [Reciprocity Pattern v0](reciprocity-pattern-v0.md) | What must be represented before HODLXXI can claim reciprocal cooperation across time? | Reciprocity is not transaction count, payment history, equal exchange, or score. | Repeated events, expectations, asymmetry, repairs, obligations, reputation. |
 | [Identity Continuity v0](identity-continuity-v0.md) | What must be represented before HODLXXI can claim identity continuity over time? | Key control, login, endpoint, Human Proof, or reputation is not identity. | Anchors, key purpose, role context, rotation, revocation, recovery. |
 | [Contextual Reputation v0](contextual-reputation-v0.md) | What must be represented before HODLXXI can summarize reputation? | Reputation is contextual compressed memory, not a global score. | Memory inputs, obligations, delegations, repairs, reciprocity, identity, disputes. |
@@ -57,7 +57,9 @@ Mechanism specs are not:
 
 Start with evidence boundary metadata because every later mechanism depends on bounded interpretation. Then obligation because promises, acceptance criteria, and time/order semantics are the smallest unit of
 accountable relation. Then delegation because agents need bounded authority, evidence boundary metadata, identity/key-control boundaries, time/order semantics, and obligation links when delegated actions create or touch obligations. Then repair
-because failure must not become either erasure or permanent punishment. Then reciprocity
+because failure must not become either erasure, refund laundering, closure laundering,
+or permanent punishment, and because repair claims depend on bounded evidence,
+obligation context, and delegation/accountability context where relevant. Then reciprocity
 because cooperation is a pattern across time. Then identity continuity because
 long-running actors require rotation, revocation, and recovery. Then contextual
 reputation because reputation compresses memory from all previous layers.
